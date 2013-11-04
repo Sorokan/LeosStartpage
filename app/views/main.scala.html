@@ -1,0 +1,22 @@
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>@title</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
+    <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css"/>
+	<script src="assets/javascripts/thirdparty/jquery-2.0.3.js"></script>
+	<script src="assets/javascripts/thirdparty/jquery-migrate-1.2.1.js"></script>
+	<script src="assets/javascripts/thirdparty/underscore.js"></script>	
+	
+	<script src="assets/javascripts/thirdparty/jquery.jfeed.js"></script>
+	<script src="assets/javascripts/thirdparty/jquery.zweatherfeed.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    @content
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           						controllers.Application.index
+GET     /proxyGet/:url              						controllers.Application.proxyGet(url)
+GET		/googleCalendar/:userName/:userPassword/:days		controllers.Application.getGoogleCalendarEntries(userName, userPassword, days: Int)
+GET		/mails/:userName/:userPassword/:maxItems/:days		controllers.Application.getMailEntries(userName, userPassword, maxItems: Int, days: Int)
+GET     /concerts/:userName/:userPassword                   controllers.Application.getConcerts(userName, userPassword) 
+GET     /config							                    controllers.Application.editConfig(message: String ?="") 
+POST    /config							                    controllers.Application.setConfig() 
+GET     /login							                    controllers.Application.showLogin(message: String ?="") 
+POST    /login							                    controllers.Application.login() 
+GET     /logout							                    controllers.Application.logout() 
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

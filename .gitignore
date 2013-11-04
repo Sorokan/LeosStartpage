@@ -17,6 +17,7 @@ project/target
 target
 tmp
 test-result
+dump
 server.pid
 *.iml
 *.eml

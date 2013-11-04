@@ -1,0 +1,19 @@
+@(configJson: String)
+
+@main("MyStartpage") {
+
+	<div id="head-map">
+    </div>
+	<div id="head-map-shadow">
+    </div>
+    <div id="time">Stand @{new java.text.SimpleDateFormat("dd.MM.yyyy HH:mm").format(new java.util.Date())}</div>
+    <div id="options"><a href="/config">Einstellungen</a> <a href="/logout">Abmelden</a></div>
+	<div id="gadget-container">	
+	</div>
+
+	<script>
+	var gadgetMetas = @Html(configJson) ;
+	</script>
+	<script src="assets/javascripts/mystartpage.js"></script>
+
+}

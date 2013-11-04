@@ -1,0 +1,10 @@
+<cache>
+  
+   <defaultCache
+        maxElementsInMemory="4096"
+        eternal="false"
+        timeToLiveSeconds="120"
+        diskPersistent="false"
+        memoryStoreEvictionPolicy="LRU"/>
+
+</cache>  

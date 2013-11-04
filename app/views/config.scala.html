@@ -1,0 +1,33 @@
+@(configForm: Form[Config],message: String)
+
+@main("Config") {
+
+	<fieldset id="config">
+		<legend>Konfiguration</legend>
+  		@helper.form(action = routes.Application.setConfig()) {
+		  @helper.textarea(configForm("json"))
+		  @if(message!=null && message!="") {
+  	        <div class="message">@message</div>
+		  }
+  		  <button type="submit">Speichern</button>
+		}
+	</fieldset>
+
+	<script>
+	$(function(){
+		function setNewSize() {			
+		  var configHeight = $('#config').outerHeight();
+		  var jsonHeight = $('#json').height();
+		  var windowHeight = $(window).height();
+		  var jsonHeightNew = windowHeight-(configHeight-jsonHeight)-80;
+		  $('#json').height(jsonHeightNew);
+		}
+		var resizeTimer;
+		$(window).bind('resize',function() {
+			clearTimeout(resizeTimer);
+			setTimeout(setNewSize,200);
+		});
+		setNewSize();
+	});
+	</script>
+}

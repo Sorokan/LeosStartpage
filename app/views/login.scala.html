@@ -1,0 +1,23 @@
+@(userForm: Form[UserPassword], message: String)
+
+@main("Login") {
+
+	<div id="login">
+	
+		<h1>Leo's Startseite</h1>
+		<div class="small">iGoogle war gestern...</div>
+		<fieldset>
+			<legend>Anmelden / Registrieren</legend>
+			@helper.form(action = routes.Application.login()) {
+			  @helper.inputText(userForm("name"), '_label -> "Name")
+			  @helper.inputPassword(userForm("password"), '_label -> "Passwort")
+			  @if(message!=null && message!="") {
+	  	        <div class="message">@message</div>
+			  }
+			  <button type="submit">Login</button>
+			}
+		</fieldset>
+	</div>
+
+
+}
