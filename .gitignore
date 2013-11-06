@@ -6,8 +6,8 @@
 
 # Ignore Play! working directory #
 db
+store
 eclipse
-lib
 log
 logs
 modules
