@@ -3639,14 +3639,21 @@
         "value" : "25.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "Live Music Hall"
+      "club" : "E Werk"
     }, {
       "artist" : "Airbourne",
       "time" : {
         "value" : "25.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "E Werk"
+      "club" : "Live Music Hall"
+    }, {
+      "artist" : "Beethoven Orchester Bonn",
+      "time" : {
+        "value" : "25.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Villa Prieger"
     }, {
       "artist" : "Gregory Porter",
       "time" : {
@@ -3676,6 +3683,13 @@
       "city" : "Köln",
       "club" : "Underground"
     }, {
+      "artist" : "Heino",
+      "time" : {
+        "value" : "25.11.2013 19:30"
+      },
+      "city" : "Brüggen",
+      "club" : "St. Nikolauskirche"
+    }, {
       "artist" : "Villagers",
       "time" : {
         "value" : "25.11.2013 20:00"
@@ -3683,19 +3697,19 @@
       "city" : "Köln",
       "club" : "Luxor"
     }, {
-      "artist" : "Sigur Ros",
-      "time" : {
-        "value" : "25.11.2013 20:00"
-      },
-      "city" : "Düsseldorf",
-      "club" : "Mitsubishi Electric HALLE"
-    }, {
       "artist" : "The Balanescu Quartet",
       "time" : {
         "value" : "25.11.2013 20:00"
       },
       "city" : "Wuppertal",
       "club" : "Opernhaus"
+    }, {
+      "artist" : "Sigur Ros",
+      "time" : {
+        "value" : "25.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Mitsubishi Electric HALLE"
     }, {
       "artist" : "Kieran Leonard",
       "time" : {
@@ -4223,26 +4237,12 @@
       "city" : "Coesfeld",
       "club" : "Konzert Theater"
     }, {
-      "artist" : "Chakuza",
+      "artist" : "Paul-Simpson-Project",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
-      "city" : "Osnabrück",
-      "club" : "Kleine Freiheit"
-    }, {
-      "artist" : "Tom Beck",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Düsseldorf",
-      "club" : "Zakk"
-    }, {
-      "artist" : "Feuerengel",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Hagen",
-      "club" : "Stadthalle"
+      "city" : "Grünberg",
+      "club" : "Barfüßerkloster"
     }, {
       "artist" : "Soilwork",
       "time" : {
@@ -4251,12 +4251,12 @@
       "city" : "Bochum",
       "club" : "Matrix"
     }, {
-      "artist" : "Kapelle Petra",
+      "artist" : "Feuerengel",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
-      "city" : "Stemwede",
-      "club" : "Life House"
+      "city" : "Hagen",
+      "club" : "Stadthalle"
     }, {
       "artist" : "Ana Popovic & Band",
       "time" : {
@@ -4264,6 +4264,20 @@
       },
       "city" : "Köln",
       "club" : "Rhein Energie Stadion"
+    }, {
+      "artist" : "Tom Beck",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Zakk"
+    }, {
+      "artist" : "Chakuza",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Kleine Freiheit"
     }, {
       "artist" : "Stoppok Solo",
       "time" : {
@@ -4342,19 +4356,26 @@
       "city" : "Köln",
       "club" : "Live Music Hall"
     }, {
-      "artist" : "My fair Lady",
-      "time" : {
-        "value" : "16.11.2013 19:30"
-      },
-      "city" : "Bad Arolsen",
-      "club" : "Festspielhaus Fürstliche Reitbahn Welcome Hotel"
-    }, {
       "artist" : "Carmen",
       "time" : {
         "value" : "16.11.2013 19:30"
       },
       "city" : "Detmold",
       "club" : "Landestheater"
+    }, {
+      "artist" : "Innen Drinnen Festival",
+      "time" : {
+        "value" : "16.11.2013 17:00"
+      },
+      "city" : "Köln",
+      "club" : "Live Music Hall"
+    }, {
+      "artist" : "Trailerpark",
+      "time" : {
+        "value" : "16.11.2013 17:00"
+      },
+      "city" : "Köln",
+      "club" : "Live Music Hall"
     }, {
       "artist" : "Selig",
       "time" : {
@@ -4447,19 +4468,12 @@
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
     }, {
-      "artist" : "Weltklassik am Klavier",
+      "artist" : "Oost-Gelders Symfonie Orkest",
       "time" : {
         "value" : "16.11.2013 17:00"
       },
-      "city" : "Bad Rehburg",
-      "club" : "Wandelhalle"
-    }, {
-      "artist" : "Woman´s Night",
-      "time" : {
-        "value" : "16.11.2013 19:00"
-      },
-      "city" : "Leverkusen",
-      "club" : "Forum"
+      "city" : "Emmerich",
+      "club" : "Stadttheater"
     }, {
       "artist" : "Roachford",
       "time" : {
@@ -4482,26 +4496,12 @@
       "city" : "Köln",
       "club" : "Essigfabrik"
     }, {
-      "artist" : "Die Macht des Gesanges",
+      "artist" : "Woman´s Night",
       "time" : {
-        "value" : "16.11.2013 19:30"
+        "value" : "16.11.2013 19:00"
       },
-      "city" : "Mönchengladbach",
-      "club" : "Studiobühne"
-    }, {
-      "artist" : "Kathy Kelly",
-      "time" : {
-        "value" : "16.11.2013 19:30"
-      },
-      "city" : "Kamen",
-      "club" : "Ev. Kirche"
-    }, {
-      "artist" : "MINDLESS SELF INDULGENCE",
-      "time" : {
-        "value" : "16.11.2013 19:30"
-      },
-      "city" : "Köln",
-      "club" : "Luxor"
+      "city" : "Leverkusen",
+      "club" : "Forum"
     }, {
       "artist" : "PRIMAL SCREAM",
       "time" : {
@@ -4510,19 +4510,40 @@
       "city" : "Köln",
       "club" : "Kantine"
     }, {
-      "artist" : "Leverkusener Jazztage",
+      "artist" : "Die Macht des Gesanges",
       "time" : {
-        "value" : "16.11.2013 20:00"
+        "value" : "16.11.2013 19:30"
       },
-      "city" : "Leverkusen",
-      "club" : "Scala Club"
+      "city" : "Mönchengladbach",
+      "club" : "Studiobühne"
     }, {
-      "artist" : "Pentatonix",
+      "artist" : "MINDLESS SELF INDULGENCE",
       "time" : {
-        "value" : "16.11.2013 20:00"
+        "value" : "16.11.2013 19:30"
       },
       "city" : "Köln",
-      "club" : "Club Bahnhof Ehrenfeld"
+      "club" : "Luxor"
+    }, {
+      "artist" : "Kathy Kelly",
+      "time" : {
+        "value" : "16.11.2013 19:30"
+      },
+      "city" : "Kamen",
+      "club" : "Ev. Kirche"
+    }, {
+      "artist" : "Brings",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Lohmar",
+      "club" : "Jabachhalle"
+    }, {
+      "artist" : "The Quill",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Turock"
     }, {
       "artist" : "Thekenpoesien",
       "time" : {
@@ -4531,13 +4552,6 @@
       "city" : "Duisburg",
       "club" : "Oase"
     }, {
-      "artist" : "Starlight Express",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Starlight Express Theater"
-    }, {
       "artist" : "Mundstuhl",
       "time" : {
         "value" : "16.11.2013 20:00"
@@ -4545,12 +4559,54 @@
       "city" : "Dortmung",
       "club" : "Fritz Henßler Haus"
     }, {
-      "artist" : "Mundstuhl",
+      "artist" : "Dave Davis",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
-      "city" : "Dortmund",
-      "club" : "Fritz Henßler Haus"
+      "city" : "Münster",
+      "club" : "Aula am Aasee"
+    }, {
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
+    }, {
+      "artist" : "Claude Bourbon",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Café arte"
+    }, {
+      "artist" : "Johnny Mastro & Mama's Boys",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Venlo",
+      "club" : "Blues-Cafe"
+    }, {
+      "artist" : "Pentatonix",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Club Bahnhof Ehrenfeld"
+    }, {
+      "artist" : "PLACEBO",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "LANXESS Arena"
+    }, {
+      "artist" : "Caveman",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Stratmanns Theater"
     }, {
       "artist" : "Davut Manco",
       "time" : {
@@ -4566,40 +4622,12 @@
       "city" : "Düsseldorf",
       "club" : "Zaga"
     }, {
-      "artist" : "PLACEBO",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "LANXESS Arena"
-    }, {
-      "artist" : "Die Rakede",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Die Werkstatt"
-    }, {
-      "artist" : "Marius Tilly Band",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Rahden",
-      "club" : "Marktschänke"
-    }, {
       "artist" : "Benjamin Biolay",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Gloria Theater"
-    }, {
-      "artist" : "Caveman",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Essen",
-      "club" : "Stratmanns Theater"
     }, {
       "artist" : "Tonbandgerät",
       "time" : {
@@ -4608,33 +4636,19 @@
       "city" : "Bielefeld",
       "club" : "Falkendom"
     }, {
-      "artist" : "Claude Bourbon",
+      "artist" : "Trio Apeiron",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
-      "city" : "Münster",
-      "club" : "Café arte"
+      "city" : "Bonn",
+      "club" : "Kulturraum Auerberg"
     }, {
-      "artist" : "Dave Davis",
+      "artist" : "Mundstuhl",
       "time" : {
         "value" : "16.11.2013 20:00"
       },
-      "city" : "Münster",
-      "club" : "Aula am Aasee"
-    }, {
-      "artist" : "The Quill",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Essen",
-      "club" : "Turock"
-    }, {
-      "artist" : "Brings",
-      "time" : {
-        "value" : "16.11.2013 20:00"
-      },
-      "city" : "Lohmar",
-      "club" : "Jabachhalle"
+      "city" : "Dortmund",
+      "club" : "Fritz Henßler Haus"
     }, {
       "artist" : "Urbanatix",
       "time" : {
@@ -4643,6 +4657,20 @@
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
     }, {
+      "artist" : "Das Ulmtal Rockt!",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Greifenstein",
+      "club" : "Ulmtalhalle"
+    }, {
+      "artist" : "Starlight Express",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
+    }, {
       "artist" : "Lax Alex Contrax",
       "time" : {
         "value" : "16.11.2013 20:00"
@@ -4650,19 +4678,19 @@
       "city" : "Köln",
       "club" : "Underground"
     }, {
+      "artist" : "Die Rakede",
+      "time" : {
+        "value" : "16.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Die Werkstatt"
+    }, {
       "artist" : "Echolons",
       "time" : {
         "value" : "16.11.2013 20:30"
       },
       "city" : "Marburg",
       "club" : "Cafe Trauma"
-    }, {
-      "artist" : "Watsky",
-      "time" : {
-        "value" : "16.11.2013 21:00"
-      },
-      "city" : "Münster",
-      "club" : "Gleis 22"
     }, {
       "artist" : "Nachtfoyer",
       "time" : {
@@ -4685,33 +4713,12 @@
       "city" : "Attendorn",
       "club" : "Alter Bahnhof"
     }, {
-      "artist" : "DJ Cafree",
+      "artist" : "Watsky",
       "time" : {
-        "value" : "16.11.2013 23:00"
+        "value" : "16.11.2013 21:00"
       },
-      "city" : "Herne",
-      "club" : "Nispet"
-    }, {
-      "artist" : "DJ Han",
-      "time" : {
-        "value" : "16.11.2013 23:00"
-      },
-      "city" : "Herne",
-      "club" : "Nispet"
-    }, {
-      "artist" : "DJ B-ROLL",
-      "time" : {
-        "value" : "16.11.2013 23:00"
-      },
-      "city" : "Herne",
-      "club" : "Nispet"
-    }, {
-      "artist" : "Sinanay & Metin",
-      "time" : {
-        "value" : "16.11.2013 23:00"
-      },
-      "city" : "Herne",
-      "club" : "Nispet"
+      "city" : "Münster",
+      "club" : "Gleis 22"
     }, {
       "artist" : "DJ Timur",
       "time" : {
@@ -4754,6 +4761,34 @@
       },
       "city" : "Duisburg",
       "club" : "Ah Be Istanbul"
+    }, {
+      "artist" : "DJ Cafree",
+      "time" : {
+        "value" : "16.11.2013 23:00"
+      },
+      "city" : "Herne",
+      "club" : "Nispet"
+    }, {
+      "artist" : "DJ Han",
+      "time" : {
+        "value" : "16.11.2013 23:00"
+      },
+      "city" : "Herne",
+      "club" : "Nispet"
+    }, {
+      "artist" : "DJ B-ROLL",
+      "time" : {
+        "value" : "16.11.2013 23:00"
+      },
+      "city" : "Herne",
+      "club" : "Nispet"
+    }, {
+      "artist" : "Sinanay & Metin",
+      "time" : {
+        "value" : "16.11.2013 23:00"
+      },
+      "city" : "Herne",
+      "club" : "Nispet"
     } ],
     "14.01.2014" : [ {
       "artist" : "Gaelforce Dance",
@@ -5166,26 +5201,19 @@
       "club" : "Blue Shell"
     } ],
     "23.11.2013" : [ {
+      "artist" : "Four Fiddlers",
+      "time" : {
+        "value" : "23.11.2013 15:00"
+      },
+      "city" : "Bornheim",
+      "club" : "Trimborn Hof"
+    }, {
       "artist" : "In Morpheus' Arms",
       "time" : {
         "value" : "23.11.2013 18:00"
       },
       "city" : "Essen",
       "club" : "Ground Zero"
-    }, {
-      "artist" : "Feuerengel",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Lingen",
-      "club" : "Emslandhallen"
-    }, {
-      "artist" : "Killing Smile",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Duisburg",
-      "club" : "Oase"
     }, {
       "artist" : "Mariza",
       "time" : {
@@ -5194,12 +5222,12 @@
       "city" : "Dortmund",
       "club" : "Konzerthaus"
     }, {
-      "artist" : "The Holmes Brothers",
+      "artist" : "Killing Smile",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
-      "city" : "Lingen",
-      "club" : "Grüner Jäger"
+      "city" : "Duisburg",
+      "club" : "Oase"
     }, {
       "artist" : "Saltatio Mortis",
       "time" : {
@@ -5207,6 +5235,13 @@
       },
       "city" : "Bochum",
       "club" : "RuhrCongress"
+    }, {
+      "artist" : "Liederjan",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Hamm",
+      "club" : "Birkenhof"
     }, {
       "artist" : "Völkerball",
       "time" : {
@@ -5228,6 +5263,13 @@
       },
       "city" : "Paderborn",
       "club" : "Gaukirche"
+    }, {
+      "artist" : "Rapalje",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Mechernich-Satzvey",
+      "club" : "Burg Satzvey"
     }, {
       "artist" : "Johannes Oerding",
       "time" : {
@@ -5271,19 +5313,19 @@
       "city" : "Bochum",
       "club" : "Starlight Express Theater"
     }, {
-      "artist" : "Der Räuber Hotzenplotz",
-      "time" : {
-        "value" : "23.11.2013 15:00"
-      },
-      "city" : "Detmold",
-      "club" : "Landestheater"
-    }, {
       "artist" : "Félix Lajkó",
       "time" : {
         "value" : "23.11.2013 15:00"
       },
       "city" : "Wuppertal",
       "club" : "Skulpturenpark Waldfrieden"
+    }, {
+      "artist" : "Der Räuber Hotzenplotz",
+      "time" : {
+        "value" : "23.11.2013 15:00"
+      },
+      "city" : "Detmold",
+      "club" : "Landestheater"
     }, {
       "artist" : "Urbanatix",
       "time" : {
@@ -5299,13 +5341,6 @@
       "city" : "Marburg",
       "club" : "Theater am Schwanhof"
     }, {
-      "artist" : "Medina",
-      "time" : {
-        "value" : "23.11.2013 19:00"
-      },
-      "city" : "Köln",
-      "club" : "Live Music Hall"
-    }, {
       "artist" : "Heaven Shall Burn",
       "time" : {
         "value" : "23.11.2013 19:00"
@@ -5313,12 +5348,12 @@
       "city" : "Oberhausen",
       "club" : "Turbinenhalle"
     }, {
-      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
+      "artist" : "Medina",
       "time" : {
-        "value" : "23.11.2013 19:30"
+        "value" : "23.11.2013 19:00"
       },
-      "city" : "Dortmund",
-      "club" : "Schauspielhaus"
+      "city" : "Köln",
+      "club" : "Live Music Hall"
     }, {
       "artist" : "Wilde Jungs",
       "time" : {
@@ -5348,12 +5383,12 @@
       "city" : "Mönchengladbach",
       "club" : "St. Marien Kirche"
     }, {
-      "artist" : "Chor Chorissimo 2000",
+      "artist" : "Stella",
       "time" : {
         "value" : "23.11.2013 19:30"
       },
-      "city" : "Horn-Bad Meinberg",
-      "club" : "Kurtheater"
+      "city" : "Detmold",
+      "club" : "Grabbe Haus"
     }, {
       "artist" : "Eisregen",
       "time" : {
@@ -5369,26 +5404,33 @@
       "city" : "Essen",
       "club" : "Turock"
     }, {
-      "artist" : "Stella",
+      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
       "time" : {
         "value" : "23.11.2013 19:30"
       },
-      "city" : "Detmold",
-      "club" : "Grabbe Haus"
+      "city" : "Dortmund",
+      "club" : "Schauspielhaus"
     }, {
-      "artist" : "Cosán",
+      "artist" : "Jeff Aug",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
-      "city" : "Wallenhorst",
-      "club" : "Rullerhaus"
+      "city" : "Minden",
+      "club" : "Jazz Club"
     }, {
-      "artist" : "The Dublin Legends",
+      "artist" : "ROT",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
-      "city" : "Duisburg",
-      "club" : "Theater am Marientor"
+      "city" : "Emmerich",
+      "club" : "Stadttheater"
+    }, {
+      "artist" : "Starlight Express",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
     }, {
       "artist" : "Lasse Matthiessen",
       "time" : {
@@ -5404,40 +5446,12 @@
       "city" : "Wuppertal",
       "club" : "Barmer Bahnhof"
     }, {
-      "artist" : "Max von Mosch Orchestra",
+      "artist" : "Nadia Birkenstock",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
-      "city" : "Dortmund",
-      "club" : "Domicil"
-    }, {
-      "artist" : "Urbanatix",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Jahrhunderthalle"
-    }, {
-      "artist" : "ZSK",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "FZW"
-    }, {
-      "artist" : "Into It. Over It.",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Münster",
-      "club" : "Lorenz Süd"
-    }, {
-      "artist" : "Semino Rossi",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "LANXESS Arena"
+      "city" : "Preußisch Oldendorf",
+      "club" : "Haus des Gastes"
     }, {
       "artist" : "Andreas  Grossmann",
       "time" : {
@@ -5446,12 +5460,54 @@
       "city" : "Münster",
       "club" : "Charivari Puppentheater"
     }, {
-      "artist" : "Nadia Birkenstock",
+      "artist" : "Into It. Over It.",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
-      "city" : "Preußisch Oldendorf",
-      "club" : "Haus des Gastes"
+      "city" : "Münster",
+      "club" : "Lorenz Süd"
+    }, {
+      "artist" : "Feruza Ochilova Quartett",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Kempen",
+      "club" : "Kulturforum"
+    }, {
+      "artist" : "ZSK",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "FZW"
+    }, {
+      "artist" : "Cosán",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Wallenhorst",
+      "club" : "Rullerhaus"
+    }, {
+      "artist" : "Semino Rossi",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "LANXESS Arena"
+    }, {
+      "artist" : "The Dublin Legends",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Duisburg",
+      "club" : "Theater am Marientor"
+    }, {
+      "artist" : "Caveman",
+      "time" : {
+        "value" : "23.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Fritz Henßler Haus"
     }, {
       "artist" : "Gökhan Tatli",
       "time" : {
@@ -5467,19 +5523,12 @@
       "city" : "Düsseldorf",
       "club" : "Zaga"
     }, {
-      "artist" : "Caveman",
+      "artist" : "Max von Mosch Orchestra",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
       "city" : "Dortmund",
-      "club" : "Fritz Henßler Haus"
-    }, {
-      "artist" : "Feruza Ochilova Quartett",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Kempen",
-      "club" : "Kulturforum"
+      "club" : "Domicil"
     }, {
       "artist" : "Die Kassierer",
       "time" : {
@@ -5488,19 +5537,12 @@
       "city" : "Köln",
       "club" : "Essigfabrik"
     }, {
-      "artist" : "Jeff Aug",
-      "time" : {
-        "value" : "23.11.2013 20:00"
-      },
-      "city" : "Minden",
-      "club" : "Jazz Club"
-    }, {
-      "artist" : "Starlight Express",
+      "artist" : "Urbanatix",
       "time" : {
         "value" : "23.11.2013 20:00"
       },
       "city" : "Bochum",
-      "club" : "Starlight Express Theater"
+      "club" : "Jahrhunderthalle"
     }, {
       "artist" : "Windhand",
       "time" : {
@@ -5516,13 +5558,6 @@
       "city" : "Wuppertal",
       "club" : "DOMHAN"
     }, {
-      "artist" : "Jacco Gardner",
-      "time" : {
-        "value" : "23.11.2013 21:00"
-      },
-      "city" : "Münster",
-      "club" : "Gleis 22"
-    }, {
       "artist" : "Crackerjack",
       "time" : {
         "value" : "23.11.2013 21:00"
@@ -5536,6 +5571,13 @@
       },
       "city" : "Münster",
       "club" : "Skaters Palace"
+    }, {
+      "artist" : "Jacco Gardner",
+      "time" : {
+        "value" : "23.11.2013 21:00"
+      },
+      "city" : "Münster",
+      "club" : "Gleis 22"
     }, {
       "artist" : "DJ Sam-X",
       "time" : {
@@ -6291,6 +6333,13 @@
       "city" : "Wetter",
       "club" : "St. Peter und Paul Kirche"
     }, {
+      "artist" : "Vicente Patíz",
+      "time" : {
+        "value" : "17.11.2013 17:00"
+      },
+      "city" : "Marienheide",
+      "club" : "evang. Kirchgemeinde"
+    }, {
       "artist" : "My fair Lady",
       "time" : {
         "value" : "17.11.2013 19:30"
@@ -6347,12 +6396,26 @@
       "city" : "Essen",
       "club" : "Ev. Erlöserkirche"
     }, {
+      "artist" : "Gedenkkonzert",
+      "time" : {
+        "value" : "17.11.2013 17:00"
+      },
+      "city" : "Essen",
+      "club" : "Alte Synagoge"
+    }, {
       "artist" : "Weltklassik am Klavier",
       "time" : {
         "value" : "17.11.2013 17:00"
       },
-      "city" : "Altena",
-      "club" : "Burg Holtzbrinck"
+      "city" : "Remscheid",
+      "club" : "Klosterkirche"
+    }, {
+      "artist" : "Salonorchester Schwarze Rose",
+      "time" : {
+        "value" : "17.11.2013 17:00"
+      },
+      "city" : "Emmerich",
+      "club" : "Stadttheater"
     }, {
       "artist" : "Urbanatix",
       "time" : {
@@ -6360,20 +6423,6 @@
       },
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
-    }, {
-      "artist" : "Weltklassik am Klavier",
-      "time" : {
-        "value" : "17.11.2013 17:00"
-      },
-      "city" : "Soest",
-      "club" : "Bürgerzentrum Alter Schlachthof"
-    }, {
-      "artist" : "Gedenkkonzert",
-      "time" : {
-        "value" : "17.11.2013 17:00"
-      },
-      "city" : "Essen",
-      "club" : "Alte Synagoge"
     }, {
       "artist" : "Orgelkonzert",
       "time" : {
@@ -6386,29 +6435,15 @@
       "time" : {
         "value" : "17.11.2013 17:00"
       },
-      "city" : "Remscheid",
-      "club" : "Klosterkirche"
+      "city" : "Soest",
+      "club" : "Bürgerzentrum Alter Schlachthof"
     }, {
-      "artist" : "Kammerkonzert",
+      "artist" : "Weltklassik am Klavier",
       "time" : {
-        "value" : "17.11.2013 19:00"
+        "value" : "17.11.2013 17:00"
       },
-      "city" : "Duisburg",
-      "club" : "Theater am Marientor"
-    }, {
-      "artist" : "José Parrondo",
-      "time" : {
-        "value" : "17.11.2013 19:00"
-      },
-      "city" : "Köln",
-      "club" : "ART68"
-    }, {
-      "artist" : "Beatrice Egli",
-      "time" : {
-        "value" : "17.11.2013 19:00"
-      },
-      "city" : "Osnabrück",
-      "club" : "Rosenhof"
+      "city" : "Altena",
+      "club" : "Burg Holtzbrinck"
     }, {
       "artist" : "Starlight Express",
       "time" : {
@@ -6416,6 +6451,13 @@
       },
       "city" : "Bochum",
       "club" : "Starlight Express Theater"
+    }, {
+      "artist" : "Kammerkonzert",
+      "time" : {
+        "value" : "17.11.2013 19:00"
+      },
+      "city" : "Duisburg",
+      "club" : "Theater am Marientor"
     }, {
       "artist" : "Rüdiger Oppermann",
       "time" : {
@@ -6430,6 +6472,27 @@
       },
       "city" : "Mönchengladbach",
       "club" : "Das Rote Krokodil"
+    }, {
+      "artist" : "Beatrice Egli",
+      "time" : {
+        "value" : "17.11.2013 19:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Rosenhof"
+    }, {
+      "artist" : "José Parrondo",
+      "time" : {
+        "value" : "17.11.2013 19:00"
+      },
+      "city" : "Köln",
+      "club" : "ART68"
+    }, {
+      "artist" : "Tingvall Trio",
+      "time" : {
+        "value" : "17.11.2013 19:30"
+      },
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
     }, {
       "artist" : "Avenged Sevenfold",
       "time" : {
@@ -6452,26 +6515,12 @@
       "city" : "Ennepetal",
       "club" : "Klinik Königsfeld"
     }, {
-      "artist" : "Tingvall Trio",
-      "time" : {
-        "value" : "17.11.2013 19:30"
-      },
-      "city" : "Leverkusen",
-      "club" : "Scala Club"
-    }, {
-      "artist" : "Amir Nasr & Joël Mozes van de Pol",
+      "artist" : "The Big Jazz Thing",
       "time" : {
         "value" : "17.11.2013 20:00"
       },
-      "city" : "Essen",
-      "club" : "Alte Kirche Altenessen"
-    }, {
-      "artist" : "Urbanatix",
-      "time" : {
-        "value" : "17.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Jahrhunderthalle"
+      "city" : "Dortmund",
+      "club" : "Domicil"
     }, {
       "artist" : "VNV Nation",
       "time" : {
@@ -6480,12 +6529,12 @@
       "city" : "Bielefeld",
       "club" : "Ringlokschuppen"
     }, {
-      "artist" : "Skillet",
+      "artist" : "Urbanatix",
       "time" : {
         "value" : "17.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Bürgerhaus Stollwerck"
+      "city" : "Bochum",
+      "club" : "Jahrhunderthalle"
     }, {
       "artist" : "Miriam Bryant",
       "time" : {
@@ -6501,19 +6550,26 @@
       "city" : "Köln",
       "club" : "Underground"
     }, {
+      "artist" : "Skillet",
+      "time" : {
+        "value" : "17.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Bürgerhaus Stollwerck"
+    }, {
+      "artist" : "Amir Nasr & Joël Mozes van de Pol",
+      "time" : {
+        "value" : "17.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Alte Kirche Altenessen"
+    }, {
       "artist" : "Tonbandgerät",
       "time" : {
         "value" : "17.11.2013 20:00"
       },
       "city" : "Dortmund",
       "club" : "FZW"
-    }, {
-      "artist" : "The Big Jazz Thing",
-      "time" : {
-        "value" : "17.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "Domicil"
     } ],
     "15.02.2014" : [ {
       "artist" : "Forced To Mode",
@@ -9065,19 +9121,19 @@
       "club" : "Bahnhof Langendreer"
     } ],
     "27.11.2013" : [ {
-      "artist" : "Papa Roach",
-      "time" : {
-        "value" : "27.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "E Werk"
-    }, {
       "artist" : "Scott Matthew",
       "time" : {
         "value" : "27.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Kulturkirche"
+    }, {
+      "artist" : "Papa Roach",
+      "time" : {
+        "value" : "27.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "E Werk"
     }, {
       "artist" : "Frei.Wild",
       "time" : {
@@ -9135,12 +9191,26 @@
       "city" : "Bad Oeynhausen",
       "club" : "Theater im Park"
     }, {
+      "artist" : "Sharon Corr",
+      "time" : {
+        "value" : "27.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Gloria Theater"
+    }, {
       "artist" : "Roosevelt",
       "time" : {
         "value" : "27.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Gebäude 9"
+    }, {
+      "artist" : "Yulyus Golombeck Memorial",
+      "time" : {
+        "value" : "27.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Domicil"
     }, {
       "artist" : "New York Nights",
       "time" : {
@@ -9156,20 +9226,6 @@
       "city" : "Bochum",
       "club" : "Bermudahalle"
     }, {
-      "artist" : "Yulyus Golombeck Memorial",
-      "time" : {
-        "value" : "27.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "Domicil"
-    }, {
-      "artist" : "Sharon Corr",
-      "time" : {
-        "value" : "27.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Gloria Theater"
-    }, {
       "artist" : "Philharmonisches Konzert",
       "time" : {
         "value" : "27.11.2013 20:00"
@@ -9177,19 +9233,19 @@
       "city" : "Duisburg",
       "club" : "Theater am Marientor"
     }, {
-      "artist" : "Litha",
-      "time" : {
-        "value" : "27.11.2013 20:00"
-      },
-      "city" : "Heiligenhaus",
-      "club" : "Der Club"
-    }, {
       "artist" : "The Beatnuts",
       "time" : {
         "value" : "27.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Bogen 2"
+    }, {
+      "artist" : "Tex",
+      "time" : {
+        "value" : "27.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Sputnikhalle"
     }, {
       "artist" : "Roland Heinrich",
       "time" : {
@@ -9205,12 +9261,12 @@
       "city" : "Unna",
       "club" : "Stadthalle"
     }, {
-      "artist" : "Tex",
+      "artist" : "Litha",
       "time" : {
         "value" : "27.11.2013 20:00"
       },
-      "city" : "Münster",
-      "club" : "Sputnikhalle"
+      "city" : "Heiligenhaus",
+      "club" : "Der Club"
     }, {
       "artist" : "The Bianca Story",
       "time" : {
@@ -10550,12 +10606,12 @@
       "city" : "Münster",
       "club" : "Skaters Palace"
     }, {
-      "artist" : "Les Yeux D' la Tete",
+      "artist" : "The Slackers",
       "time" : {
         "value" : "22.11.2013 20:00"
       },
-      "city" : "Duisburg",
-      "club" : "Alte Feuerwache"
+      "city" : "Köln",
+      "club" : "Underground"
     }, {
       "artist" : "Ana Popovic & Band",
       "time" : {
@@ -10564,12 +10620,12 @@
       "city" : "Unna",
       "club" : "Kühlschiff"
     }, {
-      "artist" : "The Slackers",
+      "artist" : "Les Yeux D' la Tete",
       "time" : {
         "value" : "22.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Underground"
+      "city" : "Duisburg",
+      "club" : "Alte Feuerwache"
     }, {
       "artist" : "Samy Deluxe",
       "time" : {
@@ -10647,6 +10703,13 @@
       },
       "city" : "Hamm",
       "club" : "Maximilianpark"
+    }, {
+      "artist" : "Beethoven Orchester Bonn",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Beethoven-Haus"
     }, {
       "artist" : "Glenn Miller Orchestra",
       "time" : {
@@ -10739,26 +10802,12 @@
       "city" : "Osnabrück",
       "club" : "Haus am Westerberg"
     }, {
-      "artist" : "Jacco Gardner",
-      "time" : {
-        "value" : "22.11.2013 19:30"
-      },
-      "city" : "Dortmund",
-      "club" : "FZW"
-    }, {
       "artist" : "Bullet",
       "time" : {
         "value" : "22.11.2013 19:30"
       },
       "city" : "Essen",
       "club" : "Turock"
-    }, {
-      "artist" : "Tim Fischer",
-      "time" : {
-        "value" : "22.11.2013 19:30"
-      },
-      "city" : "Bochum",
-      "club" : "Schauspielhaus"
     }, {
       "artist" : "Heino",
       "time" : {
@@ -10767,12 +10816,47 @@
       "city" : "Voerde",
       "club" : "St. Elisabeth Kirche"
     }, {
-      "artist" : "Guru Guru",
+      "artist" : "Jacco Gardner",
+      "time" : {
+        "value" : "22.11.2013 19:30"
+      },
+      "city" : "Dortmund",
+      "club" : "FZW"
+    }, {
+      "artist" : "Tim Fischer",
+      "time" : {
+        "value" : "22.11.2013 19:30"
+      },
+      "city" : "Bochum",
+      "club" : "Schauspielhaus"
+    }, {
+      "artist" : "Marius Neset",
       "time" : {
         "value" : "22.11.2013 20:00"
       },
-      "city" : "Paderborn",
-      "club" : "Schloss Neuhaus"
+      "city" : "Dortmund",
+      "club" : "Domicil"
+    }, {
+      "artist" : "Jeff Aug",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Euskirchen",
+      "club" : "Altes Casino"
+    }, {
+      "artist" : "Ok Kid",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Kleine Freiheit"
+    }, {
+      "artist" : "The Queen Kings",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Musiktheater Piano"
     }, {
       "artist" : "Chorkonzert",
       "time" : {
@@ -10781,19 +10865,12 @@
       "city" : "Krefeld",
       "club" : "Seidenweberhaus"
     }, {
-      "artist" : "Frightened Rabbit",
+      "artist" : "Semino Rossi",
       "time" : {
         "value" : "22.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Gebäude 9"
-    }, {
-      "artist" : "Carolin No",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Wolfhagen",
-      "club" : "Kulturladen"
+      "city" : "Oberhausen",
+      "club" : "König Pilsener Arena"
     }, {
       "artist" : "Mundstuhl",
       "time" : {
@@ -10801,6 +10878,76 @@
       },
       "city" : "Siegen",
       "club" : "Medien- und Kulturhaus Lyz"
+    }, {
+      "artist" : "Klaus Hoffmann",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Savoy Theater"
+    }, {
+      "artist" : "Carl Verheyen",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Mechernich-Satzvey",
+      "club" : "Burg Satzvey"
+    }, {
+      "artist" : "Odessa-Projekt",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Bad Honnef",
+      "club" : "Feuerschlösschen"
+    }, {
+      "artist" : "Starlight Express",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
+    }, {
+      "artist" : "Black Veil Brides",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Essigfabrik"
+    }, {
+      "artist" : "Frightened Rabbit",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Gebäude 9"
+    }, {
+      "artist" : "Moop Mama",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Bielefeld",
+      "club" : "Movie"
+    }, {
+      "artist" : "Guru Guru",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Paderborn",
+      "club" : "Schloss Neuhaus"
+    }, {
+      "artist" : "Der Fall Böse",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Marburg",
+      "club" : "Cafe Trauma"
+    }, {
+      "artist" : "Unzucht",
+      "time" : {
+        "value" : "22.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Matrix"
     }, {
       "artist" : "Klangkosmos Weltmusik",
       "time" : {
@@ -10816,41 +10963,6 @@
       "city" : "Detmold",
       "club" : "Aula der Alten Schule am Wall"
     }, {
-      "artist" : "Moop Mama",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Bielefeld",
-      "club" : "Movie"
-    }, {
-      "artist" : "Ok Kid",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Osnabrück",
-      "club" : "Kleine Freiheit"
-    }, {
-      "artist" : "Black Veil Brides",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Essigfabrik"
-    }, {
-      "artist" : "Klaus Hoffmann",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Düsseldorf",
-      "club" : "Savoy Theater"
-    }, {
-      "artist" : "Der Fall Böse",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Marburg",
-      "club" : "Cafe Trauma"
-    }, {
       "artist" : "Phoenix",
       "time" : {
         "value" : "22.11.2013 20:00"
@@ -10858,40 +10970,12 @@
       "city" : "Düsseldorf",
       "club" : "Mitsubishi Electric HALLE"
     }, {
-      "artist" : "Marius Neset",
+      "artist" : "Serebrjanaja Svadba",
       "time" : {
         "value" : "22.11.2013 20:00"
       },
-      "city" : "Dortmund",
-      "club" : "Domicil"
-    }, {
-      "artist" : "The Queen Kings",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "Musiktheater Piano"
-    }, {
-      "artist" : "Unzucht",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Matrix"
-    }, {
-      "artist" : "Semino Rossi",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Oberhausen",
-      "club" : "König Pilsener Arena"
-    }, {
-      "artist" : "Starlight Express",
-      "time" : {
-        "value" : "22.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Starlight Express Theater"
+      "city" : "Krefeld",
+      "club" : "Kulturrampe"
     }, {
       "artist" : "DIE KOPFHÖRERPARTY",
       "time" : {
@@ -11896,6 +11980,13 @@
       "city" : "Dortmund",
       "club" : "Storckshof"
     }, {
+      "artist" : "Maxim Kowalew Don Kosaken",
+      "time" : {
+        "value" : "20.11.2013 19:30"
+      },
+      "city" : "Nideggen",
+      "club" : "St. Hubertus Kirche"
+    }, {
       "artist" : "Kastelruther Spatzen",
       "time" : {
         "value" : "20.11.2013 20:00"
@@ -11924,6 +12015,13 @@
       "city" : "Bochum",
       "club" : "Starlight Express Theater"
     }, {
+      "artist" : "Urbanatix",
+      "time" : {
+        "value" : "20.11.2013 19:00"
+      },
+      "city" : "Bochum",
+      "club" : "Jahrhunderthalle"
+    }, {
       "artist" : "RoyalRepublic",
       "time" : {
         "value" : "20.11.2013 19:00"
@@ -11937,13 +12035,6 @@
       },
       "city" : "Münster",
       "club" : "Skaters Palace"
-    }, {
-      "artist" : "Urbanatix",
-      "time" : {
-        "value" : "20.11.2013 19:00"
-      },
-      "city" : "Bochum",
-      "club" : "Jahrhunderthalle"
     }, {
       "artist" : "Heino",
       "time" : {
@@ -11959,48 +12050,6 @@
       "city" : "Wuppertal",
       "club" : "Gesamtschule Else Lasker Schüler"
     }, {
-      "artist" : "König Lear",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Mönchengladbach",
-      "club" : "Theater"
-    }, {
-      "artist" : "Chorkonzert",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Mönchengladbach",
-      "club" : "Theater"
-    }, {
-      "artist" : "Golden Kanine",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Bahnhof Langendreer"
-    }, {
-      "artist" : "Litha",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Wuppertal",
-      "club" : "Bergische Universität"
-    }, {
-      "artist" : "Astrid North",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Osnabrück",
-      "club" : "Glanz & Gloria"
-    }, {
-      "artist" : "Natives",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Underground"
-    }, {
       "artist" : "New York Nights",
       "time" : {
         "value" : "20.11.2013 20:00"
@@ -12015,12 +12064,40 @@
       "city" : "Bochum",
       "club" : "Bermudahalle"
     }, {
-      "artist" : "Klaus Hoffmann",
+      "artist" : "Golden Kanine",
       "time" : {
         "value" : "20.11.2013 20:00"
       },
-      "city" : "Bramsche",
-      "club" : "Universum Kino"
+      "city" : "Bochum",
+      "club" : "Bahnhof Langendreer"
+    }, {
+      "artist" : "Chorkonzert",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Mönchengladbach",
+      "club" : "Theater"
+    }, {
+      "artist" : "Natives",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Underground"
+    }, {
+      "artist" : "Astrid North",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Glanz & Gloria"
+    }, {
+      "artist" : "Ok Kid",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Bielefeld",
+      "club" : "Falkendom"
     }, {
       "artist" : "Vista Chino",
       "time" : {
@@ -12043,33 +12120,19 @@
       "city" : "Borken",
       "club" : "Stadthalle Vennehof"
     }, {
-      "artist" : "Ok Kid",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Bielefeld",
-      "club" : "Falkendom"
-    }, {
-      "artist" : "Gogol Bordello",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "E Werk"
-    }, {
-      "artist" : "London Philharmonic Orchestra",
-      "time" : {
-        "value" : "20.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Philharmonie"
-    }, {
       "artist" : "Watsky",
       "time" : {
         "value" : "20.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Luxor"
+    }, {
+      "artist" : "König Lear",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Mönchengladbach",
+      "club" : "Theater"
     }, {
       "artist" : "Skindred",
       "time" : {
@@ -12091,6 +12154,27 @@
       },
       "city" : "Köln",
       "club" : "Essigfabrik"
+    }, {
+      "artist" : "Gogol Bordello",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "E Werk"
+    }, {
+      "artist" : "Litha",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Wuppertal",
+      "club" : "Bergische Universität"
+    }, {
+      "artist" : "London Philharmonic Orchestra",
+      "time" : {
+        "value" : "20.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Philharmonie"
     }, {
       "artist" : "Kellner",
       "time" : {
@@ -12389,19 +12473,19 @@
       "city" : "Köln",
       "club" : "Gloria Theater"
     }, {
-      "artist" : "Scott Matthew",
-      "time" : {
-        "value" : "28.11.2013 20:00"
-      },
-      "city" : "Duisburg",
-      "club" : "Grammatikoff"
-    }, {
       "artist" : "Black as Chalk",
       "time" : {
         "value" : "28.11.2013 20:00"
       },
       "city" : "Osnabrück",
       "club" : "Rosenhof"
+    }, {
+      "artist" : "Scott Matthew",
+      "time" : {
+        "value" : "28.11.2013 20:00"
+      },
+      "city" : "Duisburg",
+      "club" : "Grammatikoff"
     }, {
       "artist" : "THE SOUNDS",
       "time" : {
@@ -12430,6 +12514,13 @@
       },
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
+    }, {
+      "artist" : "Maxim Kowalew Don Kosaken",
+      "time" : {
+        "value" : "28.11.2013 19:00"
+      },
+      "city" : "Emmerich",
+      "club" : "Stadttheater"
     }, {
       "artist" : "Corvus Corax",
       "time" : {
@@ -12473,13 +12564,6 @@
       "city" : "Köln",
       "club" : "Luxor"
     }, {
-      "artist" : "Compania Bataclan",
-      "time" : {
-        "value" : "28.11.2013 19:30"
-      },
-      "city" : "Bochum",
-      "club" : "Blondies"
-    }, {
       "artist" : "The Wilde Shamrock Touring Theatre",
       "time" : {
         "value" : "28.11.2013 19:30"
@@ -12494,12 +12578,12 @@
       "city" : "Düsseldorf",
       "club" : "Capitol Theater"
     }, {
-      "artist" : "Hanni El Khatib",
+      "artist" : "Compania Bataclan",
       "time" : {
-        "value" : "28.11.2013 20:00"
+        "value" : "28.11.2013 19:30"
       },
-      "city" : "Köln",
-      "club" : "Gebäude 9"
+      "city" : "Bochum",
+      "club" : "Blondies"
     }, {
       "artist" : "Mozarts Requiem",
       "time" : {
@@ -12508,12 +12592,12 @@
       "city" : "Bochum",
       "club" : "Christuskirche"
     }, {
-      "artist" : "Amorphis",
+      "artist" : "Litha",
       "time" : {
         "value" : "28.11.2013 20:00"
       },
-      "city" : "Osnabrück",
-      "club" : "Hyde Park"
+      "city" : "Gronau",
+      "club" : "Bürgerhalle"
     }, {
       "artist" : "Tex",
       "time" : {
@@ -12522,19 +12606,40 @@
       "city" : "Osnabrück",
       "club" : "Haus der Jugend"
     }, {
-      "artist" : "Litha",
-      "time" : {
-        "value" : "28.11.2013 20:00"
-      },
-      "city" : "Gronau",
-      "club" : "Bürgerhalle"
-    }, {
       "artist" : "Starlight Express",
       "time" : {
         "value" : "28.11.2013 20:00"
       },
       "city" : "Bochum",
       "club" : "Starlight Express Theater"
+    }, {
+      "artist" : "Amorphis",
+      "time" : {
+        "value" : "28.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Hyde Park"
+    }, {
+      "artist" : "Hanni El Khatib",
+      "time" : {
+        "value" : "28.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Gebäude 9"
+    }, {
+      "artist" : "Originalton",
+      "time" : {
+        "value" : "28.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
+    }, {
+      "artist" : "Emaline Delapaix",
+      "time" : {
+        "value" : "28.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
     }, {
       "artist" : "The Toasters",
       "time" : {
@@ -12572,12 +12677,12 @@
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
     }, {
-      "artist" : "Monkey 3",
+      "artist" : "The Screen feat. Uwe Ochsenknecht & Friends",
       "time" : {
         "value" : "19.11.2013 20:00"
       },
-      "city" : "Marburg",
-      "club" : "KFZ"
+      "city" : "Köln",
+      "club" : "Kantine"
     }, {
       "artist" : "Albert Hammond",
       "time" : {
@@ -12591,14 +12696,21 @@
         "value" : "19.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "E Werk"
+      "club" : "Essigfabrik"
     }, {
-      "artist" : "Okkervil River",
+      "artist" : "Monkey 3",
+      "time" : {
+        "value" : "19.11.2013 20:00"
+      },
+      "city" : "Marburg",
+      "club" : "KFZ"
+    }, {
+      "artist" : "J. Cole",
       "time" : {
         "value" : "19.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "Gebäude 9"
+      "club" : "E Werk"
     }, {
       "artist" : "Maegie Koreen",
       "time" : {
@@ -12607,12 +12719,19 @@
       "city" : "Hamm",
       "club" : "Städtische Musikschule"
     }, {
-      "artist" : "J. Cole",
+      "artist" : "Astrid North",
+      "time" : {
+        "value" : "19.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Harmonie"
+    }, {
+      "artist" : "Okkervil River",
       "time" : {
         "value" : "19.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "Essigfabrik"
+      "club" : "Gebäude 9"
     }, {
       "artist" : "Black Star Riders",
       "time" : {
@@ -12620,13 +12739,6 @@
       },
       "city" : "Köln",
       "club" : "Live Music Hall"
-    }, {
-      "artist" : "The Screen feat. Uwe Ochsenknecht & Friends",
-      "time" : {
-        "value" : "19.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Kantine"
     }, {
       "artist" : "Blood Command",
       "time" : {
@@ -14703,7 +14815,7 @@
         "value" : "21.11.2013 20:00"
       },
       "city" : "Osnabrück",
-      "club" : "Haus der Jugend"
+      "club" : "Kleine Freiheit"
     }, {
       "artist" : "The Slackers",
       "time" : {
@@ -14712,19 +14824,19 @@
       "city" : "Bochum",
       "club" : "Bahnhof Langendreer"
     }, {
+      "artist" : "Ezio",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Harmonie"
+    }, {
       "artist" : "Genetikk",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
       "city" : "Osnabrück",
-      "club" : "Kleine Freiheit"
-    }, {
-      "artist" : "Hans Unstern",
-      "time" : {
-        "value" : "21.11.2013 20:00"
-      },
-      "city" : "Münster",
-      "club" : "Amp"
+      "club" : "Haus der Jugend"
     }, {
       "artist" : "Chakuza",
       "time" : {
@@ -14732,6 +14844,13 @@
       },
       "city" : "Münster",
       "club" : "Skaters Palace"
+    }, {
+      "artist" : "Hans Unstern",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Amp"
     }, {
       "artist" : "Jupiter Jones",
       "time" : {
@@ -14746,6 +14865,13 @@
       },
       "city" : "Paderborn",
       "club" : "Kulturwerkstatt"
+    }, {
+      "artist" : "Wise Guys",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Gießen",
+      "club" : "Hessenhalle"
     }, {
       "artist" : "Kastelruther Spatzen",
       "time" : {
@@ -14787,14 +14913,14 @@
         "value" : "21.11.2013 20:00"
       },
       "city" : "Dortmund",
-      "club" : "FZW"
+      "club" : "Westfalenhallen"
     }, {
       "artist" : "Sportfreunde Stiller",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
       "city" : "Dortmund",
-      "club" : "Westfalenhallen"
+      "club" : "FZW"
     }, {
       "artist" : "Salut Salon",
       "time" : {
@@ -14817,27 +14943,6 @@
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
     }, {
-      "artist" : "Nadia Birkenstock",
-      "time" : {
-        "value" : "21.11.2013 19:30"
-      },
-      "city" : "Bad Wildungen",
-      "club" : "Schloss Friedrichstein"
-    }, {
-      "artist" : "Dreadful Shadows",
-      "time" : {
-        "value" : "21.11.2013 19:30"
-      },
-      "city" : "Duisburg",
-      "club" : "Pulp"
-    }, {
-      "artist" : "Zeromancer",
-      "time" : {
-        "value" : "21.11.2013 19:30"
-      },
-      "city" : "Duisburg",
-      "club" : "Pulp"
-    }, {
       "artist" : "Heiße Zeiten",
       "time" : {
         "value" : "21.11.2013 19:30"
@@ -14859,6 +14964,20 @@
       "city" : "Köln",
       "club" : "Underground"
     }, {
+      "artist" : "Dreadful Shadows",
+      "time" : {
+        "value" : "21.11.2013 19:30"
+      },
+      "city" : "Duisburg",
+      "club" : "Pulp"
+    }, {
+      "artist" : "Zeromancer",
+      "time" : {
+        "value" : "21.11.2013 19:30"
+      },
+      "city" : "Duisburg",
+      "club" : "Pulp"
+    }, {
       "artist" : "Harald Grobleben",
       "time" : {
         "value" : "21.11.2013 20:00"
@@ -14873,12 +14992,33 @@
       "city" : "Köln",
       "club" : "E Werk"
     }, {
-      "artist" : "Golden Kanine",
+      "artist" : "The Wonder Years",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
-      "city" : "Marburg",
-      "club" : "KFZ"
+      "city" : "Münster",
+      "club" : "Sputnikhalle"
+    }, {
+      "artist" : "Yuri Bashmet",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Beethovenhalle"
+    }, {
+      "artist" : "Klaus Hoffmann",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Savoy Theater"
+    }, {
+      "artist" : "American String Quartet",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Philharmonie"
     }, {
       "artist" : "Starlight Express",
       "time" : {
@@ -14887,12 +15027,40 @@
       "city" : "Bochum",
       "club" : "Starlight Express Theater"
     }, {
+      "artist" : "The Buh!",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Domicil"
+    }, {
       "artist" : "Tiger Bell",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Tsunami Club"
+    }, {
+      "artist" : "Originalton",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
+    }, {
+      "artist" : "Michael Weston King",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
+    }, {
+      "artist" : "Matthias Brodowy",
+      "time" : {
+        "value" : "21.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Lagerhalle"
     }, {
       "artist" : "Nate57",
       "time" : {
@@ -14908,27 +15076,6 @@
       "city" : "Dortmund",
       "club" : "FZW"
     }, {
-      "artist" : "Katie Melua",
-      "time" : {
-        "value" : "21.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "RuhrCongress"
-    }, {
-      "artist" : "Klaus Hoffmann",
-      "time" : {
-        "value" : "21.11.2013 20:00"
-      },
-      "city" : "Düsseldorf",
-      "club" : "Savoy Theater"
-    }, {
-      "artist" : "Matthias Brodowy",
-      "time" : {
-        "value" : "21.11.2013 20:00"
-      },
-      "city" : "Osnabrück",
-      "club" : "Lagerhalle"
-    }, {
       "artist" : "Feruza Ochilova Quartett",
       "time" : {
         "value" : "21.11.2013 20:00"
@@ -14936,26 +15083,19 @@
       "city" : "Remscheid",
       "club" : "Teo Otto Theater"
     }, {
-      "artist" : "RED",
+      "artist" : "Katie Melua",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Luxor"
+      "city" : "Bochum",
+      "club" : "RuhrCongress"
     }, {
-      "artist" : "The Wonder Years",
+      "artist" : "Golden Kanine",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
-      "city" : "Münster",
-      "club" : "Sputnikhalle"
-    }, {
-      "artist" : "The Buh!",
-      "time" : {
-        "value" : "21.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "Domicil"
+      "city" : "Marburg",
+      "club" : "KFZ"
     }, {
       "artist" : "König Lear",
       "time" : {
@@ -14964,12 +15104,12 @@
       "city" : "Mönchengladbach",
       "club" : "Theater"
     }, {
-      "artist" : "American String Quartet",
+      "artist" : "RED",
       "time" : {
         "value" : "21.11.2013 20:00"
       },
       "city" : "Köln",
-      "club" : "Philharmonie"
+      "club" : "Luxor"
     }, {
       "artist" : "Night Beds",
       "time" : {
@@ -15732,47 +15872,166 @@
       "club" : "Samdan"
     } ],
     "14.11.2013" : [ {
-      "artist" : "Die Happy",
+      "artist" : "Erick Manana & Jenny Fuhr",
       "time" : {
         "value" : "14.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Aladin"
+      "city" : "Solingen",
+      "club" : "Theater und Konzerthaus"
     }, {
-      "artist" : "SCHMIDT",
+      "artist" : "Jamaram",
       "time" : {
         "value" : "14.11.2013 20:00"
       },
-      "city" : "Worpswede",
-      "club" : "Music Hall"
+      "city" : "Bochum",
+      "club" : "Bahnhof Langendreer"
     }, {
-      "artist" : "Red Hot Chilli Pipers",
+      "artist" : "Private Line",
       "time" : {
         "value" : "14.11.2013 20:00"
       },
-      "city" : "Nienburg",
-      "club" : "Theater auf dem Hornwerk"
+      "city" : "Köln",
+      "club" : "MTC"
     }, {
-      "artist" : "Die Amigos",
+      "artist" : "Gentleman",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "FZW"
+    }, {
+      "artist" : "Julian Dawson",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Grevenbroich",
+      "club" : "Museum Villa Erckens"
+    }, {
+      "artist" : "The Doors of Perception",
+      "time" : {
+        "value" : "14.11.2013 02:00"
+      },
+      "city" : "Köln",
+      "club" : "Yard Club"
+    }, {
+      "artist" : "Bochumer Symphoniker",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Schauspielhaus"
+    }, {
+      "artist" : "Cryssis",
+      "time" : {
+        "value" : "14.11.2013 00:00"
+      },
+      "city" : "Marburg",
+      "club" : "Cafe Trauma"
+    }, {
+      "artist" : "The Cavern Beatles",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Werl",
+      "club" : "Stadthalle"
+    }, {
+      "artist" : "Eric Burdon & Band",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Colosseum"
+    }, {
+      "artist" : "Puhdys",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Coesfeld",
+      "club" : "Bürgerhalle"
+    }, {
+      "artist" : "Lord of the Dance",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "RuhrCongress"
+    }, {
+      "artist" : "Cryssis",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Marburg",
+      "club" : "Cafe Trauma"
+    }, {
+      "artist" : "Keine Ahnung",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Marburg",
+      "club" : "Cafe Trauma"
+    }, {
+      "artist" : "Wladimir Kaminer",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Fritz Henßler Haus"
+    }, {
+      "artist" : "Plan B",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Fritz Henßler Haus"
+    }, {
+      "artist" : "I Am In Love",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Underground"
+    }, {
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "14.11.2013 19:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Forum"
+    }, {
+      "artist" : "Trentemoller",
+      "time" : {
+        "value" : "14.11.2013 19:00"
+      },
+      "city" : "Köln",
+      "club" : "Essigfabrik"
+    }, {
+      "artist" : "Vans Off The Wall Music Night",
       "time" : {
         "value" : "14.11.2013 19:30"
       },
-      "city" : "Uelzen",
-      "club" : "Theater an der Illmenau"
+      "city" : "Düsseldorf",
+      "club" : "Stahlwerk"
     }, {
-      "artist" : "La Brass Banda",
+      "artist" : "Ólafur Arnalds",
       "time" : {
-        "value" : "14.11.2013 20:00"
+        "value" : "14.11.2013 19:30"
       },
-      "city" : "Hannover",
-      "club" : "Capitol"
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
     }, {
-      "artist" : "Die Teilnehmer der Grand-Prix-Vorentscheidung",
+      "artist" : "Die Irrfahrten des Odysseus",
       "time" : {
-        "value" : "14.11.2013 20:00"
+        "value" : "14.11.2013 19:30"
       },
-      "city" : "Hannover",
-      "club" : "Capitol"
+      "city" : "Wuppertal",
+      "club" : "Gymnasium Bayreuther Straße"
+    }, {
+      "artist" : "Evita",
+      "time" : {
+        "value" : "14.11.2013 19:30"
+      },
+      "city" : "Wuppertal",
+      "club" : "Opernhaus"
     }, {
       "artist" : "MF/MB",
       "time" : {
@@ -15781,19 +16040,61 @@
       "city" : "Bielefeld",
       "club" : "Bunker Ulmenwall"
     }, {
-      "artist" : "THE STONES",
+      "artist" : "Thees Uhlmann",
       "time" : {
         "value" : "14.11.2013 20:00"
       },
-      "city" : "Gifhorn",
-      "club" : "Stadthalle"
+      "city" : "Osnabrück",
+      "club" : "Rosenhof"
     }, {
-      "artist" : "AFRIKA! AFRIKA!",
+      "artist" : "Originalton",
       "time" : {
         "value" : "14.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Musical Theater"
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
+    }, {
+      "artist" : "Huldrelokkk",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Holzwickede",
+      "club" : "Haus Opherdicke"
+    }, {
+      "artist" : "HDQ",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Panic Room"
+    }, {
+      "artist" : "Sharron Levy",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Blue Shell"
+    }, {
+      "artist" : "Musical Dinner Bon Voyage",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Sudmühlenhof"
+    }, {
+      "artist" : "Sinfoniekonzert",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Philharmonie"
+    }, {
+      "artist" : "Aluna George",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Club Bahnhof Ehrenfeld"
     }, {
       "artist" : "Johnny Mastro & Mama's Boys",
       "time" : {
@@ -15802,12 +16103,103 @@
       "city" : "Bielefeld",
       "club" : "Extra Blues-Bar"
     }, {
+      "artist" : "The Eclectic Moniker",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Gebäude 9"
+    }, {
+      "artist" : "Bossa-Nova",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Krefeld",
+      "club" : "Friedendskirche"
+    }, {
+      "artist" : "Mundstuhl",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Gelsenkirchen",
+      "club" : "Kaue"
+    }, {
+      "artist" : "Musical-Nacht",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Datteln",
+      "club" : "Stadthalle"
+    }, {
+      "artist" : "Starlight Express",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
+    }, {
+      "artist" : "Too Tangled",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Underground"
+    }, {
+      "artist" : "Aimee Mann",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Christuskirche"
+    }, {
+      "artist" : "Dota, die Kleingeldprinzessin",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Marburg",
+      "club" : "KFZ"
+    }, {
+      "artist" : "Agnes Obel",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Konzerthaus"
+    }, {
+      "artist" : "Originalton",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Spatz und Wal"
+    }, {
+      "artist" : "The 1975",
+      "time" : {
+        "value" : "14.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Luxor"
+    }, {
+      "artist" : "Claire",
+      "time" : {
+        "value" : "14.11.2013 21:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Kleine Freiheit"
+    }, {
       "artist" : "Rival Schools",
       "time" : {
         "value" : "14.11.2013 21:00"
       },
       "city" : "Bielefeld",
       "club" : "Falkendom"
+    }, {
+      "artist" : "Lakmann one",
+      "time" : {
+        "value" : "14.11.2013 21:00"
+      },
+      "city" : "Essen",
+      "club" : "Zeche Carl"
     } ],
     "05.11.2013" : [ {
       "artist" : "Starfucker",
@@ -15950,6 +16342,329 @@
       "city" : "Dortmund",
       "club" : "FZW"
     } ],
+    "13.11.2013" : [ {
+      "artist" : "Enter Shikari",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Skaters Palace"
+    }, {
+      "artist" : "Shantel & Bucovina Club Orkestar",
+      "time" : {
+        "value" : "13.11.2013 20:30"
+      },
+      "city" : "Wuppertal",
+      "club" : "Die Börse"
+    }, {
+      "artist" : "Illbilly Hitec",
+      "time" : {
+        "value" : "13.11.2013 20:30"
+      },
+      "city" : "Oberhausen",
+      "club" : "Drucklufthaus"
+    }, {
+      "artist" : "Frank Turner",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Mitsubishi Electric HALLE"
+    }, {
+      "artist" : "Hurts",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Mitsubishi Electric HALLE"
+    }, {
+      "artist" : "Allan Holdsworth Band",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Unna",
+      "club" : "Kulturzentrum Lindenbrauerei"
+    }, {
+      "artist" : "Herman van Veen",
+      "time" : {
+        "value" : "13.11.2013 00:00"
+      },
+      "city" : "Ratingen",
+      "club" : "Stadttheater"
+    }, {
+      "artist" : "Herman van Veen",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Ratingen",
+      "club" : "Stadthalle"
+    }, {
+      "artist" : "Status Quo",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Westfalenhallen"
+    }, {
+      "artist" : "Rapalje",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Storckshof"
+    }, {
+      "artist" : "Red Hot Chilli Pipers",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Zeche"
+    }, {
+      "artist" : "Cindy Blackman",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Domicil"
+    }, {
+      "artist" : "Lord of the Dance",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Bielefeld",
+      "club" : "Stadthalle"
+    }, {
+      "artist" : "Die Happy",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Live Music Hall"
+    }, {
+      "artist" : "Jimmy Eat World",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Live Music Hall"
+    }, {
+      "artist" : "Quadro Nuevo",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
+    }, {
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
+    }, {
+      "artist" : "Gerard",
+      "time" : {
+        "value" : "13.11.2013 20:30"
+      },
+      "city" : "Köln",
+      "club" : "Stadtgarten"
+    }, {
+      "artist" : "Christina Lux",
+      "time" : {
+        "value" : "13.11.2013 20:30"
+      },
+      "city" : "Köln",
+      "club" : "Stadtgarten"
+    }, {
+      "artist" : "Wladimir Kaminer",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Gütersloh",
+      "club" : "Weberei"
+    }, {
+      "artist" : "Plan B",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Gütersloh",
+      "club" : "Weberei"
+    }, {
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "13.11.2013 19:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Forum"
+    }, {
+      "artist" : "Roger Cicero & Band",
+      "time" : {
+        "value" : "13.11.2013 19:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Forum"
+    }, {
+      "artist" : "Made in Germany Festival",
+      "time" : {
+        "value" : "13.11.2013 19:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Forum"
+    }, {
+      "artist" : "Schulkonzert",
+      "time" : {
+        "value" : "13.11.2013 10:00"
+      },
+      "city" : "Wuppertal",
+      "club" : "Stadthalle"
+    }, {
+      "artist" : "Feruza Ochilova Quartett",
+      "time" : {
+        "value" : "13.11.2013 18:30"
+      },
+      "city" : "Gütersloh",
+      "club" : "Theater"
+    }, {
+      "artist" : "Starlight Express",
+      "time" : {
+        "value" : "13.11.2013 18:30"
+      },
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
+    }, {
+      "artist" : "Die Irrfahrten des Odysseus",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Wuppertal",
+      "club" : "St. Anna Schule"
+    }, {
+      "artist" : "Evita",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Wuppertal",
+      "club" : "Opernhaus"
+    }, {
+      "artist" : "hellway2high",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Hamm",
+      "club" : "Kurhaus"
+    }, {
+      "artist" : "Märchenkonzert",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Essen",
+      "club" : "Kunst- und Medienforum"
+    }, {
+      "artist" : "Mad Max",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Essen",
+      "club" : "Turock"
+    }, {
+      "artist" : "Claire",
+      "time" : {
+        "value" : "13.11.2013 19:30"
+      },
+      "city" : "Dortmund",
+      "club" : "FZW"
+    }, {
+      "artist" : "Huldrelokkk",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Wuppertal",
+      "club" : "Lutherstift"
+    }, {
+      "artist" : "Beppe Gambetta",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Oberhausen",
+      "club" : "Gdanska"
+    }, {
+      "artist" : "Tatort Jazz",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Thealozzi"
+    }, {
+      "artist" : "Rezurex",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Underground"
+    }, {
+      "artist" : "Musicalshow Bon Voyage",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Fröndenberg",
+      "club" : "Kulturschmiede"
+    }, {
+      "artist" : "Thees Uhlmann",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "E Werk"
+    }, {
+      "artist" : "Agnes Obel",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Kulturkirche"
+    }, {
+      "artist" : "Martina Eisenreich",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Ristorante Caldo e Freddo"
+    }, {
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Ristorante Caldo e Freddo"
+    }, {
+      "artist" : "New York Nights",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Bermudahalle"
+    }, {
+      "artist" : "Pamela Falcon",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Bermudahalle"
+    }, {
+      "artist" : "Maxim Vengerov",
+      "time" : {
+        "value" : "13.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Philharmonie"
+    }, {
+      "artist" : "Brandy Zdan",
+      "time" : {
+        "value" : "13.11.2013 23:00"
+      },
+      "city" : "Dillenburg",
+      "club" : "Erbse"
+    } ],
     "01.04.2014" : [ {
       "artist" : "Adel Tawil",
       "time" : {
@@ -15966,19 +16681,54 @@
       "club" : "RuhrCongress"
     } ],
     "12.11.2013" : [ {
-      "artist" : "Enter Shikari",
+      "artist" : "Nick Cave and the Bad Seeds",
       "time" : {
-        "value" : "12.11.2013 20:00"
+        "value" : "12.11.2013 18:00"
       },
-      "city" : "Bremen",
-      "club" : "Modernes"
+      "city" : "Düsseldorf",
+      "club" : "Mitsubishi Electric HALLE"
     }, {
-      "artist" : "The Cavern Beatles",
+      "artist" : "Banned from Utopia",
+      "time" : {
+        "value" : "12.11.2013 19:30"
+      },
+      "city" : "Duisburg",
+      "club" : "Grammatikoff"
+    }, {
+      "artist" : "THE SOUNDS",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Delmenhorst",
-      "club" : "Theater"
+      "city" : "Münster",
+      "club" : "Skaters Palace"
+    }, {
+      "artist" : "Volbeat",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "LANXESS Arena"
+    }, {
+      "artist" : "Soilwork",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Essigfabrik"
+    }, {
+      "artist" : "SCHMIDT",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Osnabrück",
+      "club" : "Lagerhalle"
+    }, {
+      "artist" : "Eric Burdon & Band",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Live Music Hall"
     }, {
       "artist" : "Al di Meola",
       "time" : {
@@ -15987,75 +16737,110 @@
       "city" : "Paderborn",
       "club" : "Paderhalle"
     }, {
-      "artist" : "La Brass Banda",
+      "artist" : "Colin Wilkie",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Pier 2"
+      "city" : "Düsseldorf",
+      "club" : "Buchhandlung BiBaBuZe"
     }, {
-      "artist" : "Die Teilnehmer der Grand-Prix-Vorentscheidung",
+      "artist" : "Klaus Weiland",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Pier 2"
+      "city" : "Düsseldorf",
+      "club" : "Buchhandlung BiBaBuZe"
     }, {
-      "artist" : "The Wilde Shamrock Touring Theatre",
+      "artist" : "Leverkusener Jazztage",
       "time" : {
-        "value" : "12.11.2013 10:00"
+        "value" : "12.11.2013 19:00"
       },
-      "city" : "Bad Nenndorf",
-      "club" : "Gymnasium"
+      "city" : "Leverkusen",
+      "club" : "Forum"
     }, {
-      "artist" : "Joshua",
+      "artist" : "Flamenco meets Jazz",
+      "time" : {
+        "value" : "12.11.2013 19:00"
+      },
+      "city" : "Leverkusen",
+      "club" : "Forum"
+    }, {
+      "artist" : "Roachford",
       "time" : {
         "value" : "12.11.2013 19:30"
       },
-      "city" : "Barsinghausen",
-      "club" : "Wohnzimmerkonzert"
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
     }, {
-      "artist" : "The Quireboys",
+      "artist" : "Leverkusener Jazztage",
+      "time" : {
+        "value" : "12.11.2013 19:30"
+      },
+      "city" : "Leverkusen",
+      "club" : "Scala Club"
+    }, {
+      "artist" : "Blues Brothers - das Musical",
+      "time" : {
+        "value" : "12.11.2013 19:30"
+      },
+      "city" : "Marburg",
+      "club" : "Galeria Classica"
+    }, {
+      "artist" : "Dota, die Kleingeldprinzessin",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Hannover",
-      "club" : "Blues Garage"
+      "city" : "Köln",
+      "club" : "Gebäude 9"
     }, {
-      "artist" : "Giora Feidman & Ben Becker",
+      "artist" : "Eljot Quent",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Hannover",
-      "club" : "Theater am Aegi"
+      "city" : "Köln",
+      "club" : "Underground"
     }, {
-      "artist" : "Joja Wendt",
+      "artist" : "Das Land des Lächelns",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Die Glocke"
+      "city" : "Krefeld",
+      "club" : "Theater"
     }, {
-      "artist" : "Em Huisken's jank frison",
+      "artist" : "VNV Nation",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Arberger Hof"
+      "city" : "Krefeld",
+      "club" : "Kulturfabrik"
     }, {
-      "artist" : "Johnny Mastro & Mama's Boys",
+      "artist" : "Maxim Vengerov",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Bremen",
-      "club" : "Meisenfrei"
+      "city" : "Essen",
+      "club" : "Philharmonie"
     }, {
-      "artist" : "De Staat",
+      "artist" : "Imagine Dragons",
       "time" : {
         "value" : "12.11.2013 20:00"
       },
-      "city" : "Hannover",
-      "club" : "Lux"
+      "city" : "Köln",
+      "club" : "E Werk"
+    }, {
+      "artist" : "Kamelot",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Bochum",
+      "club" : "Matrix"
+    }, {
+      "artist" : "Gerard",
+      "time" : {
+        "value" : "12.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Hot Jazz Club"
     }, {
       "artist" : "Bastille",
       "time" : {
@@ -16064,12 +16849,12 @@
       "city" : "Herford",
       "club" : "X Club"
     }, {
-      "artist" : "Kadavar",
+      "artist" : "Bear's Den",
       "time" : {
         "value" : "12.11.2013 21:00"
       },
-      "city" : "Hannover",
-      "club" : "Faust"
+      "city" : "Köln",
+      "club" : "Blue Shell"
     } ],
     "10.04.2014" : [ {
       "artist" : "AXXIS",
@@ -16712,19 +17497,19 @@
       "city" : "Oberschledorn",
       "club" : "Firma Becker & Sohn"
     }, {
-      "artist" : "Julian Dawson",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Brilon",
-      "club" : "Kump"
-    }, {
       "artist" : "Marillion",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
       "city" : "Köln",
       "club" : "Essigfabrik"
+    }, {
+      "artist" : "Julian Dawson",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Brilon",
+      "club" : "Kump"
     }, {
       "artist" : "Rantanplan",
       "time" : {
@@ -16774,6 +17559,13 @@
       },
       "city" : "Bochum",
       "club" : "Schauspielhaus"
+    }, {
+      "artist" : "The Cavern Beatles",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Gießen",
+      "club" : "Stadthalle"
     }, {
       "artist" : "Anne Wylie",
       "time" : {
@@ -16845,6 +17637,13 @@
       "city" : "Düsseldorf",
       "club" : "Zakk"
     }, {
+      "artist" : "Dr. Mojo",
+      "time" : {
+        "value" : "15.11.2013 18:00"
+      },
+      "city" : "Kleve",
+      "club" : "Samocca Cafe"
+    }, {
       "artist" : "Marius Tilly Band",
       "time" : {
         "value" : "15.11.2013 18:00"
@@ -16880,12 +17679,12 @@
       "city" : "Bochum",
       "club" : "Haus Oveney"
     }, {
-      "artist" : "Das Blaue Einhorn",
+      "artist" : "Vier Ton Oper",
       "time" : {
         "value" : "15.11.2013 19:30"
       },
-      "city" : "Detmold",
-      "club" : "Erlöserkirche"
+      "city" : "Mönchengladbach",
+      "club" : "Studiobühne"
     }, {
       "artist" : "Tonbandgerät",
       "time" : {
@@ -16893,6 +17692,13 @@
       },
       "city" : "Köln",
       "club" : "Luxor"
+    }, {
+      "artist" : "Die Fledermaus",
+      "time" : {
+        "value" : "15.11.2013 19:30"
+      },
+      "city" : "Wuppertal",
+      "club" : "Opernhaus"
     }, {
       "artist" : "Leverkusener Jazztage",
       "time" : {
@@ -16908,27 +17714,6 @@
       "city" : "Leverkusen",
       "club" : "Scala Club"
     }, {
-      "artist" : "Die Fledermaus",
-      "time" : {
-        "value" : "15.11.2013 19:30"
-      },
-      "city" : "Wuppertal",
-      "club" : "Opernhaus"
-    }, {
-      "artist" : "Joshua",
-      "time" : {
-        "value" : "15.11.2013 19:30"
-      },
-      "city" : "Landesbergen",
-      "club" : "Wohnzimmerkonzert"
-    }, {
-      "artist" : "Vier Ton Oper",
-      "time" : {
-        "value" : "15.11.2013 19:30"
-      },
-      "city" : "Mönchengladbach",
-      "club" : "Studiobühne"
-    }, {
       "artist" : "Midnight Court",
       "time" : {
         "value" : "15.11.2013 19:30"
@@ -16936,12 +17721,12 @@
       "city" : "Drensteinfurt",
       "club" : "Bürgerhaus Alte Post"
     }, {
-      "artist" : "Ocean",
+      "artist" : "Das Blaue Einhorn",
       "time" : {
-        "value" : "15.11.2013 20:00"
+        "value" : "15.11.2013 19:30"
       },
-      "city" : "Essen",
-      "club" : "Zeche Carl"
+      "city" : "Detmold",
+      "club" : "Erlöserkirche"
     }, {
       "artist" : "Feruza Ochilova Quartett",
       "time" : {
@@ -16950,33 +17735,19 @@
       "city" : "Gelsenkirchen",
       "club" : "Bleckkirche"
     }, {
+      "artist" : "Claire",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Gebäude 9"
+    }, {
       "artist" : "Huldrelokkk",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
       "city" : "Bielefeld",
       "club" : "Neue Schmiede"
-    }, {
-      "artist" : "Modern Earl",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Rhede",
-      "club" : "New Orleans"
-    }, {
-      "artist" : "Johnny Mastro & Mama's Boys",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Diest",
-      "club" : "The Borderline"
-    }, {
-      "artist" : "Sinfoniekonzert",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Essen",
-      "club" : "Philharmonie"
     }, {
       "artist" : "HDQ",
       "time" : {
@@ -16985,6 +17756,20 @@
       "city" : "Köln",
       "club" : "Sonic Ballroom"
     }, {
+      "artist" : "Sinfoniekonzert",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Essen",
+      "club" : "Philharmonie"
+    }, {
+      "artist" : "Johnny Mastro & Mama's Boys",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Diest",
+      "club" : "The Borderline"
+    }, {
       "artist" : "Betina Ignacio",
       "time" : {
         "value" : "15.11.2013 20:00"
@@ -16992,47 +17777,12 @@
       "city" : "Essen",
       "club" : "Theater im Girardet Haus"
     }, {
-      "artist" : "The Senior Alstars",
+      "artist" : "Bergitta Victor",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
-      "city" : "Duisburg",
-      "club" : "Steinbruch"
-    }, {
-      "artist" : "Die Klingende Brücke",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Dülmen",
-      "club" : "Liedstudio Münsterland"
-    }, {
-      "artist" : "Too Tangled",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Dortmund",
-      "club" : "Subrosa"
-    }, {
-      "artist" : "Katona Twins",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Münster",
-      "club" : "Friedenskapelle am Friedenspark"
-    }, {
-      "artist" : "Starlight Express",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Starlight Express Theater"
-    }, {
-      "artist" : "Morris Minor",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Hörstel",
-      "club" : "Kunsthaus Kloster Gravenhorst"
+      "city" : "Bergheim",
+      "club" : "Medio"
     }, {
       "artist" : "Caveman",
       "time" : {
@@ -17041,40 +17791,47 @@
       "city" : "Essen",
       "club" : "Stratmanns Theater"
     }, {
-      "artist" : "Altan",
+      "artist" : "Ocean",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
-      "city" : "Werdohl",
-      "club" : "St. Michael"
+      "city" : "Essen",
+      "club" : "Zeche Carl"
     }, {
-      "artist" : "Hip Hop Tunes Festival",
+      "artist" : "The Senior Alstars",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
-      "city" : "Lingen",
-      "club" : "Alter Schlachthof"
+      "city" : "Duisburg",
+      "club" : "Steinbruch"
     }, {
-      "artist" : "Blumentopf",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Lingen",
-      "club" : "Alter Schlachthof"
-    }, {
-      "artist" : "Moinsen Mafia",
-      "time" : {
-        "value" : "15.11.2013 20:00"
-      },
-      "city" : "Lingen",
-      "club" : "Alter Schlachthof"
-    }, {
-      "artist" : "The Chameleons Vox",
+      "artist" : "Katona Twins",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
       "city" : "Münster",
-      "club" : "Sputnikhalle"
+      "club" : "Friedenskapelle am Friedenspark"
+    }, {
+      "artist" : "Too Tangled",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Dortmund",
+      "club" : "Subrosa"
+    }, {
+      "artist" : "The X-perts",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Linnich-Kofferen",
+      "club" : "McMüllers Irish and American Pub"
+    }, {
+      "artist" : "Morris Minor",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Hörstel",
+      "club" : "Kunsthaus Kloster Gravenhorst"
     }, {
       "artist" : "Serdar Somuncu & Band",
       "time" : {
@@ -17083,12 +17840,12 @@
       "city" : "Bielefeld",
       "club" : "Stadthalle"
     }, {
-      "artist" : "Claire",
+      "artist" : "Starlight Express",
       "time" : {
         "value" : "15.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Gebäude 9"
+      "city" : "Bochum",
+      "club" : "Starlight Express Theater"
     }, {
       "artist" : "Monsters of Liedermaching",
       "time" : {
@@ -17096,6 +17853,34 @@
       },
       "city" : "Soest",
       "club" : "Bürgerzentrum Alter Schlachthof"
+    }, {
+      "artist" : "Die Klingende Brücke",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Dülmen",
+      "club" : "Liedstudio Münsterland"
+    }, {
+      "artist" : "Modern Earl",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Rhede",
+      "club" : "New Orleans"
+    }, {
+      "artist" : "The Chameleons Vox",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Sputnikhalle"
+    }, {
+      "artist" : "Altan",
+      "time" : {
+        "value" : "15.11.2013 20:00"
+      },
+      "city" : "Werdohl",
+      "club" : "St. Michael"
     }, {
       "artist" : "Sixth Comm",
       "time" : {
@@ -17118,13 +17903,6 @@
       "city" : "Wuppertal",
       "club" : "Live Club Barmen"
     }, {
-      "artist" : "Reidar Jensen",
-      "time" : {
-        "value" : "15.11.2013 21:00"
-      },
-      "city" : "Greven",
-      "club" : "Landhaus Rickermann"
-    }, {
       "artist" : "Sublime with Rome",
       "time" : {
         "value" : "15.11.2013 21:00"
@@ -17138,6 +17916,13 @@
       },
       "city" : "Siegburg",
       "club" : "Kubana"
+    }, {
+      "artist" : "Reidar Jensen",
+      "time" : {
+        "value" : "15.11.2013 21:00"
+      },
+      "city" : "Greven",
+      "club" : "Landhaus Rickermann"
     }, {
       "artist" : "Neonsplash Paint-Party",
       "time" : {
@@ -18614,6 +19399,13 @@
       "club" : "Philharmonie"
     } ],
     "18.11.2013" : [ {
+      "artist" : "Chakuza",
+      "time" : {
+        "value" : "18.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Underground"
+    }, {
       "artist" : "Oh Land",
       "time" : {
         "value" : "18.11.2013 20:00"
@@ -18627,13 +19419,6 @@
       },
       "city" : "Köln",
       "club" : "Live Music Hall"
-    }, {
-      "artist" : "Chakuza",
-      "time" : {
-        "value" : "18.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Underground"
     }, {
       "artist" : "La Brass Banda",
       "time" : {
@@ -18649,12 +19434,19 @@
       "city" : "Osnabrück",
       "club" : "Rosenhof"
     }, {
-      "artist" : "Michael Hirte",
+      "artist" : "Christina Lux",
       "time" : {
-        "value" : "18.11.2013 19:30"
+        "value" : "18.11.2013 20:00"
       },
-      "city" : "Stadtallendorf",
-      "club" : "Stadthalle"
+      "city" : "Grefrath",
+      "club" : "Buchhandlung"
+    }, {
+      "artist" : "Astrid North",
+      "time" : {
+        "value" : "18.11.2013 20:00"
+      },
+      "city" : "Grefrath",
+      "club" : "Buchhandlung"
     }, {
       "artist" : "Gabrielle Aplin",
       "time" : {
@@ -18684,13 +19476,6 @@
       "city" : "Bad Salzuflen",
       "club" : "Konzerthalle"
     }, {
-      "artist" : "Tokyo Sex Destruction",
-      "time" : {
-        "value" : "18.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Sonic Ballroom"
-    }, {
       "artist" : "Valeria Shishkowa & Di Vanderer",
       "time" : {
         "value" : "18.11.2013 20:00"
@@ -18704,6 +19489,13 @@
       },
       "city" : "Duisburg",
       "club" : "Mercatorhalle"
+    }, {
+      "artist" : "Duo Barth & Römer",
+      "time" : {
+        "value" : "18.11.2013 20:00"
+      },
+      "city" : "Bonn",
+      "club" : "Zone"
     }, {
       "artist" : "Wolf Codera",
       "time" : {
@@ -18719,13 +19511,6 @@
       "city" : "Münster",
       "club" : "Cuba Nova"
     }, {
-      "artist" : "Escape The Fate",
-      "time" : {
-        "value" : "18.11.2013 20:00"
-      },
-      "city" : "Köln",
-      "club" : "Essigfabrik"
-    }, {
       "artist" : "The Band Perry",
       "time" : {
         "value" : "18.11.2013 20:00"
@@ -18733,12 +19518,19 @@
       "city" : "Köln",
       "club" : "Stadtgarten"
     }, {
-      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
+      "artist" : "Tokyo Sex Destruction",
       "time" : {
         "value" : "18.11.2013 20:00"
       },
-      "city" : "Recklinghausen",
-      "club" : "Ruhrfestspielhaus"
+      "city" : "Köln",
+      "club" : "Sonic Ballroom"
+    }, {
+      "artist" : "Escape The Fate",
+      "time" : {
+        "value" : "18.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Essigfabrik"
     }, {
       "artist" : "Sheila E.",
       "time" : {
@@ -18746,6 +19538,13 @@
       },
       "city" : "Münster",
       "club" : "Jovel"
+    }, {
+      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
+      "time" : {
+        "value" : "18.11.2013 20:00"
+      },
+      "city" : "Recklinghausen",
+      "club" : "Ruhrfestspielhaus"
     }, {
       "artist" : "Andrew Stockdale",
       "time" : {
@@ -20534,6 +21333,13 @@
       "city" : "Dorsten",
       "club" : "Cornelia Funke Baumhaus"
     }, {
+      "artist" : "Beethoven Orchester Bonn",
+      "time" : {
+        "value" : "24.11.2013 11:00"
+      },
+      "city" : "Bonn",
+      "club" : "Beethovenhalle"
+    }, {
       "artist" : "Sportfreunde Stiller",
       "time" : {
         "value" : "24.11.2013 20:00"
@@ -20611,26 +21417,12 @@
       "city" : "Krefeld",
       "club" : "Theater"
     }, {
-      "artist" : "Oratorienchor Bielefeld",
-      "time" : {
-        "value" : "24.11.2013 18:00"
-      },
-      "city" : "Bielefeld",
-      "club" : "Rudolf Oetker Halle"
-    }, {
       "artist" : "Yuri Bashmet",
       "time" : {
         "value" : "24.11.2013 18:00"
       },
       "city" : "Neuss",
       "club" : "Stadthalle"
-    }, {
-      "artist" : "Heino",
-      "time" : {
-        "value" : "24.11.2013 18:00"
-      },
-      "city" : "Wuppertal",
-      "club" : "Alte Kirche"
     }, {
       "artist" : "Chorkonzert",
       "time" : {
@@ -20645,6 +21437,20 @@
       },
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
+    }, {
+      "artist" : "Oratorienchor Bielefeld",
+      "time" : {
+        "value" : "24.11.2013 18:00"
+      },
+      "city" : "Bielefeld",
+      "club" : "Rudolf Oetker Halle"
+    }, {
+      "artist" : "Heino",
+      "time" : {
+        "value" : "24.11.2013 18:00"
+      },
+      "city" : "Wuppertal",
+      "club" : "Alte Kirche"
     }, {
       "artist" : "Starlight Express",
       "time" : {
@@ -20667,12 +21473,12 @@
       "city" : "Köln",
       "club" : "MTC"
     }, {
-      "artist" : "The Ghost",
+      "artist" : "Wuppinger & L'Orchestre Europa",
       "time" : {
         "value" : "24.11.2013 20:00"
       },
-      "city" : "Köln",
-      "club" : "Bürgerhaus Stollwerck"
+      "city" : "Bochum",
+      "club" : "Bahnhof Langendreer"
     }, {
       "artist" : "Matthew E. White",
       "time" : {
@@ -20681,19 +21487,12 @@
       "city" : "Köln",
       "club" : "Gebäude 9"
     }, {
-      "artist" : "Litha",
+      "artist" : "Feruza Ochilova Quartett",
       "time" : {
         "value" : "24.11.2013 20:00"
       },
-      "city" : "Rheda-Wiedenbrück",
-      "club" : "Schlossgarten"
-    }, {
-      "artist" : "Wuppinger & L'Orchestre Europa",
-      "time" : {
-        "value" : "24.11.2013 20:00"
-      },
-      "city" : "Bochum",
-      "club" : "Bahnhof Langendreer"
+      "city" : "Bonn",
+      "club" : "Brotfabrik"
     }, {
       "artist" : "Jake Bugg",
       "time" : {
@@ -20701,13 +21500,6 @@
       },
       "city" : "Köln",
       "club" : "Live Music Hall"
-    }, {
-      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
-      "time" : {
-        "value" : "24.11.2013 20:00"
-      },
-      "city" : "Münster",
-      "club" : "Aula am Aasee"
     }, {
       "artist" : "Robert Coyne",
       "time" : {
@@ -20723,6 +21515,27 @@
       "city" : "Osnabrück",
       "club" : "Rosenhof"
     }, {
+      "artist" : "Litha",
+      "time" : {
+        "value" : "24.11.2013 20:00"
+      },
+      "city" : "Rheda-Wiedenbrück",
+      "club" : "Schlossgarten"
+    }, {
+      "artist" : "The Ghost",
+      "time" : {
+        "value" : "24.11.2013 20:00"
+      },
+      "city" : "Köln",
+      "club" : "Bürgerhaus Stollwerck"
+    }, {
+      "artist" : "Rainald Grebe & das Orchester der Versöhnung",
+      "time" : {
+        "value" : "24.11.2013 20:00"
+      },
+      "city" : "Münster",
+      "club" : "Aula am Aasee"
+    }, {
       "artist" : "Meret Becker & Band",
       "time" : {
         "value" : "24.11.2013 20:00"
@@ -20737,13 +21550,6 @@
       "city" : "Bielefeld",
       "club" : "Theaterlabor"
     }, {
-      "artist" : "Spain",
-      "time" : {
-        "value" : "24.11.2013 20:30"
-      },
-      "city" : "Düsseldorf",
-      "club" : "Forum Freies Theater"
-    }, {
       "artist" : "Jacco Gardner",
       "time" : {
         "value" : "24.11.2013 20:30"
@@ -20757,6 +21563,13 @@
       },
       "city" : "Bochum",
       "club" : "Jahrhunderthalle"
+    }, {
+      "artist" : "Spain",
+      "time" : {
+        "value" : "24.11.2013 20:30"
+      },
+      "city" : "Düsseldorf",
+      "club" : "Forum Freies Theater"
     } ],
     "05.12.2013" : [ {
       "artist" : "Götz Widmann",
@@ -22684,42 +23497,6 @@
     } ]
   },
   "datesToGo" : [ {
-    "value" : "12.11.2013"
-  }, {
-    "value" : "13.11.2013"
-  }, {
-    "value" : "14.11.2013"
-  }, {
-    "value" : "15.11.2013"
-  }, {
-    "value" : "16.11.2013"
-  }, {
-    "value" : "17.11.2013"
-  }, {
-    "value" : "18.11.2013"
-  }, {
-    "value" : "19.11.2013"
-  }, {
-    "value" : "20.11.2013"
-  }, {
-    "value" : "21.11.2013"
-  }, {
-    "value" : "22.11.2013"
-  }, {
-    "value" : "23.11.2013"
-  }, {
-    "value" : "24.11.2013"
-  }, {
-    "value" : "25.11.2013"
-  }, {
-    "value" : "26.11.2013"
-  }, {
-    "value" : "27.11.2013"
-  }, {
-    "value" : "28.11.2013"
-  }, {
-    "value" : "29.11.2013"
-  }, {
     "value" : "30.11.2013"
   }, {
     "value" : "01.12.2013"

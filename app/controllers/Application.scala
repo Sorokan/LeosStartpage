@@ -197,7 +197,8 @@ object Application extends Controller {
               "Referer",
               "Set-Cookie").contains(k)))
           val r = Tuple3(response.status, headerMap, response.ahcResponse.getResponseBodyAsBytes())
-          Cache.set(url, r, Int.MaxValue)
+          // expires after 5 minutes
+          Cache.set(url, r, 60*5)
           r
         }
       } else {
