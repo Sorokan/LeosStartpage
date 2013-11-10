@@ -172,7 +172,7 @@ object Application extends Controller {
   def getConcerts(userName: String, userPassword: String) = Cached("concerts/" + userName, maxAgeSeconds) {
     Action {
       val concerts = HooolpConcerts.getConcerts()
-      val df = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm")
+      val df = DateTimeFormat.forPattern("dd.MM HH:mm")
 
       def normalize(s: String) = s.toLowerCase().replaceAll("[^A-Za-z0-9]", "")
 
@@ -198,7 +198,8 @@ object Application extends Controller {
         "events" -> Json.toJson(group._2.map(c => Json.toJson(Map(
           "time" -> Json.toJson(df.print(c.time)),
           "club" -> Json.toJson(c.club),
-          "city" -> Json.toJson(c.city)))))))))
+          "city" -> Json.toJson(c.city),
+          "url" -> Json.toJson(c.url)))))))))
 
       Ok(concertJson)
     }

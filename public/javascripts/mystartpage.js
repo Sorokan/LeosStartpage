@@ -11,7 +11,7 @@ $(function() {
 	var registry = {
 
 		concerts : function(gadgetMeta) {
-			var gadget = gadgetFrameHtml("rss-items", _.extend(gadgetMeta,{titlelink:"http://www.hooolp.com"}));
+			var gadget = gadgetFrameHtml("concerts", _.extend(gadgetMeta,{titlelink:"http://www.hooolp.com"}));
 			var container = $("<div></div>");
 			gadget.append(container);
 			$.get("/concerts/" + gadgetMeta.user + "/" + gadgetMeta.password,
@@ -164,6 +164,13 @@ $(function() {
 		i++;
 	});
 
+	$('#head-map').click(function(){
+		$(this).animate({
+			'height': ($(this).height()==150)?"640px":"150px",
+			'background-position-y': ($(this).height()==150)?"0px":"-40px"
+		}, 1500 );
+	});
+	
 	$(window).resize(function() {
 		window.location.reload();
 	});

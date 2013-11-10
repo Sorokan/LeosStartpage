@@ -100,37 +100,36 @@ head
 }
 
 /* ================================
-options 
+head line 
 ===================================*/
+#head-line {
+	position: relative;
+	font-size: 12px;
+	top: -2px;
+	z-index: 100;	
+	color: #88B;
+	width: 100%;
+}
+
 #options {
 	position: absolute;
-	font-size: 12px;
-	top: 148px;
 	right: 40px;
-	z-index: 100;
 }
 
 #options a {
-	color: #88B;
 	padding-left: 5px;
 	text-decoration: none;
+	color: #88B;
 }
 
 #time {
 	position: absolute;
-	font-size: 12px;
-	top: 148px;
 	left: 40px;
-	z-index: 100;
-	color: #88B;
 }
 
 #user {
-	font-size: 12px;
-	top: 148px;
-	z-index: 100;
-	color: #88B;
 }
+
 /* ================================
 gadgets 
 ===================================*/
@@ -214,6 +213,14 @@ mail
 .mail div {
 	display: inline-block;
 	padding-right: 0.5em;
+}
+
+/* ================================
+concerts 
+===================================*/
+.concerts a {
+	text-decoration: none;
+	color: #88B;
 }
 
 /* ================================
