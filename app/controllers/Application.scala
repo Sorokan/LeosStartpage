@@ -220,7 +220,10 @@ object Application extends Controller {
               "Transfer-Encoding",
               "Referer",
               "Set-Cookie",
-              "Cache-Control").contains(k))).+(("Cache-Control"->("public,max-age="+maxAgeSeconds+",s-maxage="+maxAgeSeconds)))
+              "Cache-Control",
+              "Last-Modified",
+              "ETag",
+              "Expires").contains(k))).+(("Cache-Control"->("public,max-age="+maxAgeSeconds)))
           val r = Tuple3(response.status, headerMap, response.ahcResponse.getResponseBodyAsBytes())
           Cache.set(url, r, maxAgeSeconds)
           r
