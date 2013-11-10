@@ -170,6 +170,10 @@ $(function() {
 			'background-position-y': ($(this).height()==150)?"0px":"-40px"
 		}, 1500 );
 	});
+
+	if (typeof gadgetMetas.css!=="undefined") {
+		$('head').append($('<style type="text/css">'+gadgetMetas.css+'</style>'));
+	}
 	
 	$(window).resize(function() {
 		window.location.reload();
