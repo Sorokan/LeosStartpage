@@ -11,16 +11,15 @@ config
 #config dt {
 	display: none;
 }
+
 #config dd {
 	margin: 0px;
 	padding: 0px;
 }
 
-
 /* ================================
 login
 ===================================*/
-
 #login h1 {
 	text-align: center;
 }
@@ -37,17 +36,20 @@ login
 	margin-right: auto;
 }
 
-#login dt, #login dd {
+#login dt,#login dd {
 	display: inline-block;
 }
+
 #login dt {
 	width: 7em;
 	color: #888;
 }
+
 #login dd {
 	margin: 0px;
 	padding: 0px;
 }
+
 #login input {
 	border: 1px solid silver;
 	padding: 5px;
@@ -77,7 +79,7 @@ button {
 	font-style: italic;
 	font-size: small;
 	padding: 10px;
-	margin-bottom:1em;
+	margin-bottom: 1em;
 	text-align: center;
 }
 
@@ -123,6 +125,12 @@ options
 	color: #88B;
 }
 
+#user {
+	font-size: 12px;
+	top: 148px;
+	z-index: 100;
+	color: #88B;
+}
 /* ================================
 gadgets 
 ===================================*/
@@ -221,13 +229,15 @@ calendar
 }
 
 .datetime .day {
-  width: 1.5em	
+	width: 1.5em
 }
+
 .datetime .date {
-  width: 2.5em	
+	width: 2.5em
 }
+
 .datetime .time {
-  width: 2.5em	
+	width: 2.5em
 }
 
 .calendar .description {

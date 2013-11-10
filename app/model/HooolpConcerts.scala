@@ -18,7 +18,7 @@ import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import JsonFormatters.formatLocalDate
 
-case class Concert(artist: String, time: LocalDateTime, city: String, club: String)
+case class Concert(artist: String, time: LocalDateTime, city: String, club: String, url: String)
 
 case class Concerts(lastRuntime: LocalDateTime, allEvents: Map[LocalDate, List[Concert]], datesToGo: List[LocalDate]) {
   def needsUpdate = lastRuntime.plusDays(4).isBefore(new LocalDateTime)
@@ -128,7 +128,9 @@ object HooolpConcerts {
         artist = (band \ "name").asOpt[String].getOrElse(null),
         time = parseDate((event \ "startDate").asOpt[String].getOrElse(null), (event \ "startTime").asOpt[String].getOrElse(null)),
         city = (event \ "location" \ "city").asOpt[String].getOrElse(null),
-        club = (event \ "location" \ "name").asOpt[String].getOrElse(null)))).toList
+        club = (event \ "location" \ "name").asOpt[String].getOrElse(null),
+        url = "http://www.hooolp.com/" + (event \ "alias").asOpt[String].getOrElse(null)
+        ))).toList
       updateConcerts(events, date)
     }
 

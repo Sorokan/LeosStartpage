@@ -21,8 +21,8 @@ $(function() {
 									+ artist.artist
 									+ " <small>"
 									+ _.map(artist.events, function(event) {
-										return "<span>" + event.time + " "
-												+ event.city + "</span>";
+										return "<a href='"+event.url+"'>" + event.time + " "
+												+ event.city + "</a>";
 									}) + "</small></div>");
 						});
 					});

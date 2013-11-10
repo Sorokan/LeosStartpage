@@ -92,7 +92,7 @@ object Application extends Controller {
       try {
         val user = UserPasswordCookie.get(request)
         val config = Users.getConfig(user.name, user.password)
-        Ok(views.html.index(Json.stringify(config)))
+        Ok(views.html.index(user.name,Json.stringify(config)))
       } catch {
         case e: NoCookie => Redirect(routes.Application.showLogin("No Cookie"))
         case e: WrongPassword => Redirect(routes.Application.showLogin("Wrong Password"))

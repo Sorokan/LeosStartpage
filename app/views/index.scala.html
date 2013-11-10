@@ -1,12 +1,17 @@
-@(configJson: String)
+@(user: String, configJson: String)
 
-@main("MyStartpage") {
+@main(user+"'s Startpage") {
 
 	<div id="head-map">
     </div>
 	<div id="head-map-shadow">
     </div>
     <div id="time">Stand @{new java.text.SimpleDateFormat("dd.MM.yyyy HH:mm").format(new java.util.Date())}</div>
+    <div id="user" style="position: absolute; left: 50%;">
+        <div style="position: relative; left: -50%">
+            Hallo @user
+        </div>
+    </div>
     <div id="options"><a href="/config">Einstellungen</a> <a href="/logout">Abmelden</a></div>
 	<div id="gadget-container">	
 	</div>
