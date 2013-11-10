@@ -1,4 +1,4 @@
-package controllers
+package model
 
 import java.text.SimpleDateFormat
 import org.joda.time.LocalDate
@@ -6,6 +6,8 @@ import javax.mail.search.FlagTerm
 import javax.mail.Folder
 import javax.mail.Flags
 import play.api.libs.json.Json
+import play.api.libs.json.Json.toJsFieldJsValueWrapper
+import scala.Array.canBuildFrom
 
 object GoogleMail {
 

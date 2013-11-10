@@ -41,6 +41,14 @@ import play.api.libs.json.JsNull
 import play.api.libs.json.JsValue
 import play.api.cache.Cache
 import scala.concurrent.Future
+import model.HooolpConcerts
+import model.WrongPassword
+import model.Users
+import model.UnknownUser
+import model.InvalidJson
+import model.GoogleCalendar
+import model.GoogleMail
+import model.SimfyPlaylist
 
 case class UserPassword(name: String, password: String)
 case class Config(json: String)
@@ -49,6 +57,8 @@ class NoCookie extends Exception {}
 
 object Application extends Controller {
 
+  val maxAgeSeconds = 60*2
+    
   val userForm = Form(
     mapping(
       "name" -> text,
@@ -147,7 +157,19 @@ object Application extends Controller {
     }
   }
 
-  def getConcerts(userName: String, userPassword: String) = Cached("concerts/" + userName) {
+  def getGoogleCalendarEntries(userName: String, userPassword: String, days: Int) = Cached("GoogleCalendar." + userName, maxAgeSeconds) {
+    Action {
+      Ok(GoogleCalendar.getGoogleCalendarEntries(userName, userPassword, days))
+    }
+  }
+
+  def getMailEntries(userName: String, userPassword: String, maxItems: Int, numOfDays: Int) = Cached("Mail." + userName, maxAgeSeconds) {
+    Action {
+      Ok(GoogleMail.getMailEntries(userName, userPassword, maxItems, numOfDays))
+    }
+  }
+
+  def getConcerts(userName: String, userPassword: String) = Cached("concerts/" + userName, maxAgeSeconds) {
     Action {
       val concerts = HooolpConcerts.getConcerts()
       val df = DateTimeFormat.forPattern("dd.MM.yyyy HH:mm")
@@ -183,6 +205,7 @@ object Application extends Controller {
   }
 
   def proxyGet(url: String) = {
+    
     implicit val context = scala.concurrent.ExecutionContext.Implicits.global
 
     val result = Cache.getOrElse[(Int, Map[String, String], Array[Byte])](url)(null)
@@ -195,10 +218,10 @@ object Application extends Controller {
             .filterKeys(k => (!List(
               "Transfer-Encoding",
               "Referer",
-              "Set-Cookie").contains(k)))
+              "Set-Cookie",
+              "Cache-Control").contains(k))).+(("Cache-Control"->("public,max-age="+maxAgeSeconds+",s-maxage="+maxAgeSeconds)))
           val r = Tuple3(response.status, headerMap, response.ahcResponse.getResponseBodyAsBytes())
-          // expires after 5 minutes
-          Cache.set(url, r, 60*5)
+          Cache.set(url, r, maxAgeSeconds)
           r
         }
       } else {
@@ -212,18 +235,6 @@ object Application extends Controller {
         header = ResponseHeader(t._1, t._2),
         body = Enumerator(t._3))))
 
-  }
-
-  def getGoogleCalendarEntries(userName: String, userPassword: String, days: Int) = Cached("GoogleCalendar." + userName) {
-    Action {
-      Ok(GoogleCalendar.getGoogleCalendarEntries(userName, userPassword, days))
-    }
-  }
-
-  def getMailEntries(userName: String, userPassword: String, maxItems: Int, numOfDays: Int) = Cached("Mail." + userName) {
-    Action {
-      Ok(GoogleMail.getMailEntries(userName, userPassword, maxItems, numOfDays))
-    }
   }
 
 }

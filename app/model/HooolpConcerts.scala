@@ -1,47 +1,22 @@
-package controllers
-
-import com.google.gdata.client.calendar.CalendarService
-import java.net.URL
-import com.google.gdata.client.calendar.CalendarQuery
+package model
 import org.joda.time.LocalDate
-import com.google.gdata.data.calendar.CalendarEventFeed
-import java.text.SimpleDateFormat
 import scala.collection.JavaConversions._
-import org.joda.time.DateTime
 import play.api.libs.json.Json
-import javax.mail.Folder
-import javax.mail.search.FlagTerm
-import com.sun.mail.imap.protocol.FLAGS
-import javax.mail.Flags
-import java.util.Date
-import play.api.cache.Cached
 import com.gargoylesoftware.htmlunit.WebClient
 import com.gargoylesoftware.htmlunit.BrowserVersion
 import com.gargoylesoftware.htmlunit.HttpWebConnection
 import com.gargoylesoftware.htmlunit.WebResponse
 import com.gargoylesoftware.htmlunit.WebRequest
 import com.gargoylesoftware.htmlunit.html.HtmlPage
-import be.roam.hue.doj.Doj
-import org.apache.commons.io.IOUtils
-import java.io.File
-import org.apache.commons.io.FileUtils
 import scala.util.control.Breaks._
 import org.joda.time.LocalDateTime
-import org.joda.time.format.DateTimeFormatter
 import org.joda.time.format.DateTimeFormat
 import scala.util.Random
-import scala.collection.immutable
-import play.api.libs.concurrent.Akka
-import play.api.Play
-import akka.actor.Props
-import akka.actor.Actor
 import scala.concurrent.duration._
 import play.api.libs.concurrent.Execution.Implicits._
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
-import org.joda.time.format.ISODateTimeFormat
-import org.codehaus.jackson.annotate.JsonValue
-import play.api.libs.json.Json.JsValueWrapper
+import JsonFormatters.formatLocalDate
 
 case class Concert(artist: String, time: LocalDateTime, city: String, club: String)
 

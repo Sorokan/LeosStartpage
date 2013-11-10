@@ -1,4 +1,4 @@
-package controllers
+package model
 
 import com.google.gdata.client.calendar.CalendarService
 import com.google.gdata.client.calendar.CalendarQuery
@@ -11,6 +11,9 @@ import play.api.libs.json.Json
 import scala.collection.JavaConversions._
 import com.google.gdata.data.calendar.CalendarFeed
 import org.apache.commons.lang3.StringUtils
+import com.google.gdata.data.calendar.CalendarEventFeed
+import com.google.gdata.data.calendar.CalendarFeed
+import play.api.libs.json.Json.toJsFieldJsValueWrapper
 
 object GoogleCalendar {
 

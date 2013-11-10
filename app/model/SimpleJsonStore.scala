@@ -1,12 +1,10 @@
-package controllers
-
-import java.io.File
-import org.apache.commons.io.FileUtils
+package model
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.LocalDate
 import org.joda.time.LocalDateTime
+import play.api.libs.json.Json.toJsFieldJsValueWrapper
 
 object JsonFormatters {
   implicit val formatLocalDate = new Format[LocalDate] {

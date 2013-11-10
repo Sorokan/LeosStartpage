@@ -1,4 +1,4 @@
-package controllers
+package model
 
 import play.api.libs.json.Json
 import org.jasypt.util.text.BasicTextEncryptor

@@ -1,4 +1,4 @@
-package controllers
+package model
 
 import java.io.File
 import org.apache.commons.io.FileUtils
@@ -11,12 +11,12 @@ class FileStore(name: String) {
 
   def read: String =
     if (file.exists())
-      FileUtils.readFileToString(file)
+      FileUtils.readFileToString(file,"utf-8")
     else
       null
 
   def write(str: String) {
-    FileUtils.writeStringToFile(progress, str)
+    FileUtils.writeStringToFile(progress, str, "utf-8")
     if (file.exists()) {
       file.renameTo(old)
     }

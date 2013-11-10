@@ -1,32 +1,14 @@
-package controllers
-
-import com.google.gdata.client.calendar.CalendarService
-import java.net.URL
-import com.google.gdata.client.calendar.CalendarQuery
-import org.joda.time.LocalDate
-import com.google.gdata.data.calendar.CalendarEventFeed
-import java.text.SimpleDateFormat
+package model
 import scala.collection.JavaConversions._
-import org.joda.time.DateTime
-import play.api.libs.json.Json
-import javax.mail.Folder
-import javax.mail.search.FlagTerm
-import com.sun.mail.imap.protocol.FLAGS
-import javax.mail.Flags
-import java.util.Date
-import play.api.cache.Cached
 import com.gargoylesoftware.htmlunit.WebClient
 import com.gargoylesoftware.htmlunit.BrowserVersion
-import com.gargoylesoftware.htmlunit.HttpWebConnection
-import com.gargoylesoftware.htmlunit.WebResponse
-import com.gargoylesoftware.htmlunit.WebRequest
 import com.gargoylesoftware.htmlunit.html.HtmlPage
 import be.roam.hue.doj.Doj
-import org.apache.commons.io.IOUtils
-import java.io.File
-import org.apache.commons.io.FileUtils
 import scala.util.control.Breaks._
 import org.joda.time.LocalDateTime
+import play.api.libs.functional.syntax.functionalCanBuildApplicative
+import play.api.libs.functional.syntax.toFunctionalBuilderOps
+import play.api.libs.json.Json
 
 case class Track(title: String, artist: String)
 case class PlayList(title: String, tracks: Seq[Track])
