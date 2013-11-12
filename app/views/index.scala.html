@@ -15,12 +15,19 @@
 	    </div>
 	    <div id="options"><a href="/config">Einstellungen</a> <a href="/logout">Abmelden</a></div>
     </div>
+	<div id="links">	
+	</div>
 	<div id="gadget-container">	
 	</div>
 
+	<script src="assets/javascripts/lang/Module.js"></script>
+	<script src="assets/javascripts/gadgetTypeRegistry.js"></script>
+	<script src="assets/javascripts/showGadgets.js"></script>
+	<script src="assets/javascripts/init.js"></script>
 	<script>
-	var gadgetMetas = @Html(configJson) ;
+	$(function(){
+		mystartpage.init(@Html(configJson));	
+	});
 	</script>
-	<script src="assets/javascripts/mystartpage.js"></script>
 
 }

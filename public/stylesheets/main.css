@@ -131,6 +131,26 @@ head line
 }
 
 /* ================================
+links 
+===================================*/
+
+#links {
+	margin-top:1em;
+	margin-left: 40px;
+	margin-bottom:-10px;
+	z-index:100;
+	position: relative;
+}
+
+#links a {
+	font-size: 12px;
+	color: #88B;
+	padding-right: 1em;
+	text-decoration: none;
+}
+
+
+/* ================================
 gadgets 
 ===================================*/
 #gadget-container {

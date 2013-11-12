@@ -21,3 +21,4 @@ dump
 server.pid
 *.iml
 *.eml
+/bin
