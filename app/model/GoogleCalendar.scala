@@ -44,11 +44,14 @@ object GoogleCalendar {
 
     case class Entry(val timestamp: DateTime, val text: String)
 
+    implicit def dateTimeOrdering: Ordering[DateTime] = Ordering.fromLessThan(_ isBefore _)
+
     Json.arr(
       feeds.map(entry => Entry(
         new DateTime(entry.getTimes().get(0).getStartTime().getValue()),
         entry.getTitle().getPlainText()))
         .filter(e => e.timestamp.isAfter(start.toDateMidnight()))
+        .sortBy(e => e.timestamp)
         .map(e => Json.obj(
           "day" -> dayf.format(e.timestamp.toDate()),
           "date" -> df.format(e.timestamp.toDate()),
