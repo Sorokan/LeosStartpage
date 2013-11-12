@@ -94,6 +94,7 @@ object Application extends Controller {
         val config = Users.getConfig(user.name, user.password)
         Ok(views.html.index(user.name,Json.stringify(config)))
       } catch {
+        case e: UnknownUser => Redirect(routes.Application.showLogin("Unknown User"))
         case e: NoCookie => Redirect(routes.Application.showLogin("No Cookie"))
         case e: WrongPassword => Redirect(routes.Application.showLogin("Wrong Password"))
       }
