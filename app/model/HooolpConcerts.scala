@@ -96,7 +96,7 @@ object HooolpConcerts {
       while (true) {
         val concerts = getConcerts()
         if (concerts.datesToGo.isEmpty) {
-          sleep(60 * 60 * 24)
+          sleep(60 * 60 * 24 * 5)
         } else {
           triggerGetDate(concerts.datesToGo.head)
           sleep(rnd.nextInt(60 * 5))

@@ -49,6 +49,7 @@ import model.InvalidJson
 import model.GoogleCalendar
 import model.GoogleMail
 import model.SimfyPlaylist
+import org.joda.time.LocalDateTime
 
 case class UserPassword(name: String, password: String)
 case class Config(json: String)
@@ -177,26 +178,28 @@ object Application extends Controller {
 
       def normalize(s: String) = s.toLowerCase().replaceAll("[^A-Za-z0-9]", "")
 
+      case class Artist(name: String, url: String)
+      
       val playlists = SimfyPlaylist.getSimfyPlaylists(userName, userPassword)
-      val artists = playlists.flatMap(p => p.tracks.map(t => t.artist)).distinct
+      val artists = playlists
+        .flatMap(p => p.tracks.map(t => (t.artist->Artist(t.artist,t.artistUrl)))).toMap
         // ohne klassische Orchesterbesetzungen...
-        .filterNot(s => s.contains('[') && s.contains('&'))
-        .flatMap(s => s.split("feat."))
-        .map(s => normalize(s))
-        .distinct
-        .sorted
+        .filterNot(s => s._1.contains('[') && s._1.contains('&'))
+        // einzelne Interpreten
+        .flatMap(s => s._1.split("feat.")
+        .map(n=>(normalize(s._1)->s._2)))
 
-      val concertsInPlaylist = concerts.allEvents.flatMap(t => t._2).filter(c => {
-        val art = normalize(c.artist)
-        artists.contains(art)
-        //artists.exists(a => (("\b"+a+"\b").r findFirstIn art)!=None)
-      })
+      val concertsInPlaylist = concerts.allEvents.flatMap(t => t._2).map(c => 
+        (c.artist.split("feat.").map(x=>normalize(x)).filter(x=>artists.containsKey(x)).map(x=>artists(x))->c)
+      ).filter(x=> !(x._1.isEmpty)).flatMap(x=>x._1.map(y=>(y->x._2)))
 
-      // jackson reflection, db, lastRuntime mit ausgeben
+      implicit def dateTimeOrdering: Ordering[LocalDateTime] = Ordering.fromLessThan(_ isBefore _)
 
-      val concertJson = Json.toJson(concertsInPlaylist.groupBy(c => c.artist).map(group => Json.toJson(Map(
-        "artist" -> Json.toJson(group._1),
-        "events" -> Json.toJson(group._2.map(c => Json.toJson(Map(
+      val concertJson = Json.toJson(concertsInPlaylist.groupBy(t => t._1).map(x=>(x._1,x._2.map(y=>y._2))).map(group => Json.toJson(Map(
+        "artist" -> Json.toJson(Map(
+            "name" -> Json.toJson(group._1.name),
+            "url" -> Json.toJson(group._1.url))),
+        "events" -> Json.toJson(group._2.toList.sortBy(c=>c.time).map(c => Json.toJson(Map(
           "time" -> Json.toJson(df.print(c.time)),
           "club" -> Json.toJson(c.club),
           "city" -> Json.toJson(c.city),

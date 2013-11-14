@@ -18,15 +18,15 @@ module("mystartpage").gadgetTypeRegistry = (function(){
 			gadget.append(container);
 			$.get("/concerts/" + gadgetMeta.user + "/" + gadgetMeta.password,
 					function(result) {
-						_.each(result, function(artist) {
+						_.each(result, function(concerts) {
 							container.append("<div>"
-									+ artist.artist
+									+ "<a href='"+concerts.artist.url+"' target='_blank'>"+concerts.artist.name+"</a>"
 									+ " <small>"
-									+ _.map(artist.events, function(event) {
-										return "<a href='" + event.url + "'>"
+									+ _.map(concerts.events, function(event) {
+										return "<a href='" + event.url + "' target='_blank'>"
 												+ event.time + " " + event.city
 												+ "</a>";
-									}) + "</small></div>");
+									}).join(", ") + "</small></div>");
 						});
 					});
 		},

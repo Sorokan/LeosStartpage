@@ -10,7 +10,7 @@ import play.api.libs.functional.syntax.functionalCanBuildApplicative
 import play.api.libs.functional.syntax.toFunctionalBuilderOps
 import play.api.libs.json.Json
 
-case class Track(title: String, artist: String)
+case class Track(title: String, artist: String, artistUrl: String)
 case class PlayList(title: String, tracks: Seq[Track])
 
 object SimfyPlaylist {
@@ -108,7 +108,8 @@ object SimfyPlaylist {
         tracks = Doj.on(page).get(".track").map(track =>
           Track(
             title = track.get(".track_title_and_version_title").text(),
-            artist = track.get(".artist_name a").attribute("title"))).toSeq))
+            artist = track.get(".artist_name a").attribute("title"),
+            artistUrl = "http://www.simfy.de"+track.get(".artist_name a").attribute("href"))).toSeq))
 
     playlists
   }
