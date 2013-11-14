@@ -195,7 +195,7 @@ object Application extends Controller {
 
       implicit def dateTimeOrdering: Ordering[LocalDateTime] = Ordering.fromLessThan(_ isBefore _)
 
-      val concertJson = Json.toJson(concertsInPlaylist.groupBy(t => t._1).map(x=>(x._1,x._2.map(y=>y._2))).map(group => Json.toJson(Map(
+      val concertJson = Json.toJson(concertsInPlaylist.groupBy(t => t._1).map(x=>(x._1,x._2.map(y=>y._2))).toList.sortBy(x=>x._1.name).map(group => Json.toJson(Map(
         "artist" -> Json.toJson(Map(
             "name" -> Json.toJson(group._1.name),
             "url" -> Json.toJson(group._1.url))),
