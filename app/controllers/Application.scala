@@ -189,7 +189,10 @@ object Application extends Controller {
         .flatMap(s => s._1.split("feat.")
         .map(n=>(normalize(s._1)->s._2)))
 
-      val concertsInPlaylist = concerts.allEvents.flatMap(t => t._2).map(c => 
+      val now = new LocalDate()  
+        
+      val concertsInPlaylist = concerts.allEvents.filter(x => !x._1.isBefore(now))
+        .flatMap(t => t._2).map(c => 
         (c.artist.split("feat.").map(x=>normalize(x)).filter(x=>artists.containsKey(x)).map(x=>artists(x))->c)
       ).filter(x=> !(x._1.isEmpty)).flatMap(x=>x._1.map(y=>(y->x._2)))
 
