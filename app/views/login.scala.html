@@ -7,8 +7,8 @@
 	
 		<h1>Leo's Startseite</h1>
 		<div class="small">iGoogle war gestern...</div>
-		<fieldset>
-			<legend>Anmelden / Registrieren</legend>
+		<div class="fieldset">
+			<div class="legend">Anmelden / Registrieren</div>
 			@helper.form(action = routes.Application.login()) {
 			  @helper.inputText(userForm("name"), '_label -> "Name")
 			  @helper.inputPassword(userForm("password"), '_label -> "Passwort")
@@ -17,7 +17,7 @@
 			  }
 			  <button type="submit">Login</button>
 			}
-		</fieldset>
+		</div>
 	</div>
 
 

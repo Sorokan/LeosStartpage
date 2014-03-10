@@ -23,7 +23,7 @@ module("mystartpage").showGadgets = (function() {
 		function moveGadgetToColumns() {
 			var columns = getGadgetColumns(gadgetMetas);
 			var i = 0;
-			$('#gadget-container > fieldset').each(function() {
+			$('#gadget-container > .fieldset').each(function() {
 				var $this = $(this);
 				$this.remove();
 				columns[i % columns.length].append($this);

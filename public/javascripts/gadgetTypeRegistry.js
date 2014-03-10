@@ -1,9 +1,9 @@
 module("mystartpage").gadgetTypeRegistry = (function(){
 
 	var gadgetFrameHtml = function(cssClass, gadgetMeta) {
-		var gadget = $("<fieldset class='" + cssClass + "'><legend><a href='"
+		var gadget = $("<div class='fieldset " + cssClass + "'><div class='legend'><a href='"
 				+ gadgetMeta.titlelink + "' target='_blank'>"
-				+ gadgetMeta.title + "</a></legend></fieldset>");
+				+ gadgetMeta.title + "</a></div></div>");
 		$("#gadget-container").append(gadget);
 		return gadget;
 	}
@@ -14,7 +14,7 @@ module("mystartpage").gadgetTypeRegistry = (function(){
 			var gadget = gadgetFrameHtml("concerts", _.extend(gadgetMeta, {
 				titlelink : "http://www.hooolp.com"
 			}));
-			var container = $("<div></div>");
+			var container = $("<div class='content'></div>");
 			gadget.append(container);
 			$.get("/concerts/" + gadgetMeta.user + "/" + gadgetMeta.password,
 					function(result) {
@@ -99,7 +99,7 @@ module("mystartpage").gadgetTypeRegistry = (function(){
 
 		mail : function(gadgetMeta) {
 			var gadget = gadgetFrameHtml("mail", gadgetMeta);
-			var feedContainer = $("<div><ul></ul></div>");
+			var feedContainer = $("<div class='content'><ul></ul></div>");
 			var ul = $("ul", feedContainer);
 			gadget.append(feedContainer);
 			$.get("/mails/" + gadgetMeta.user + "/" + gadgetMeta.password + "/"

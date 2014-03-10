@@ -30,7 +30,7 @@ login
 	font-style: italic;
 }
 
-#login fieldset {
+#login .fieldset {
 	width: 25em;
 	margin-left: auto;
 	margin-right: auto;
@@ -166,14 +166,14 @@ gadgets
 	user-select: none;
 }
 
-#gadget-container fieldset {
+#gadget-container .fieldset {
 	font-size: 75%;
 	color: #223;
 	padding-left: 1.5em;
 	padding-bottom: 1.5em;
 }
 
-fieldset {
+.fieldset {
 	position: relative;
 	padding: 10px;
 	margin: 1em;
@@ -194,7 +194,7 @@ fieldset {
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-legend {
+.legend {
 	font-size: 105%;
 	font-weight: bold;
 	padding: 3px;
@@ -209,9 +209,10 @@ legend {
 	border-bottom-right-radius: 0px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+	box-sizing: padding;
 }
 
-#gadget-container fieldset>legend>a {
+#gadget-container .fieldset>.legend>a {
 	color: #225;
 	text-decoration: none;
 }
@@ -229,11 +230,11 @@ legend {
 /* ================================
 mail 
 ===================================*/
-.mail>div {
+.mail>.content {
 	height: 10em;
 }
 
-.mail div {
+.mail>.content {
 	display: inline-block;
 	padding-right: 0.5em;
 }
@@ -250,7 +251,7 @@ concerts
 	color: #88B;
 }
 
-.concerts > div {
+.concerts > .content {
 	padding-top: 1em;
 }
 

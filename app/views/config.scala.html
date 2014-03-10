@@ -3,8 +3,8 @@
 @main("Config") { 
 } {
 
-	<fieldset id="config">
-		<legend>Konfiguration</legend>
+	<div class="fieldset" id="config">
+		<div class="legend">Konfiguration</div>
   		@helper.form(action = routes.Application.setConfig()) {
 		  @helper.textarea(configForm("json"))
 		  @if(message!=null && message!="") {
@@ -12,7 +12,7 @@
 		  }
   		  <button type="submit">Speichern</button>
 		}
-	</fieldset>
+	</div>
 
 	<script>
 	$(function(){
