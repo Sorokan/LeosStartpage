@@ -379,6 +379,7 @@ weather
 	font-size: 70%;
 	padding: 0.8em;
 	text-align: right;
+	height: 24em;
 }
 
 .weatherCity {
